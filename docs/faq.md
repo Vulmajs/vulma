@@ -16,19 +16,11 @@ The development environment supports the following browsers. To tweak browsers s
 
 ## How do I get started?
 
-See the [Getting Started guide](/#!/Getting%20Started) on GitHub.
+See the [Getting Started guide](/docs/#!/Getting%20Started) on GitHub.
 
 ## I want to use this in existing Vue project, is that possible?
 
-Definitely possible, see instructions in [Getting Started guide](/#!/Getting%20Started).
-
-## Can I convert YAML tokens to more than just SCSS and JSON?
-
-Definitely. See [Theo’s docs](https://github.com/salesforce-ux/theo). It allows you to convert the tokens to almost any format you can think of. The formats used are being configured in `package.json`
-
-## Any plan to support different component states?
-
-VulmaJs Design System uses a customized version of [Vue Styleguidist](https://github.com/vue-styleguidist/vue-styleguidist) for the styleguide part which already supports something similar. You can for example define multiple examples in markdown format in the component’s `<docs>` section. I’ve added an example of this in the documentation’s [Elements section](/#!/Elements?id=forminput).
+Definitely possible, see instructions in [Getting Started guide](/docs/#!/Getting%20Started).
 
 ## I can’t figure out what icons are available?
 

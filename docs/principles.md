@@ -8,28 +8,19 @@ To edit or remove this principle, see /docs/principles.md
 
 ## 2. Reduce concepts to increase confidence
 
-To edit or remove this principle, see /docs/principles.md
+* Have you introduced a new concept? Why? Is it necessary?
+* Can you get rid of unneeded concepts?
+* Are you making meaningful distinctions?
+* Does the UX continue the same concept?
 
 ## 3. Design with real data
 
-To edit or remove this principle, see /docs/principles.md
-
 ## 4. Design systems, not pages
-
-To edit or remove this principle, see /docs/principles.md
 
 ## 5. Involve code early
 
-To edit or remove this principle, see /docs/principles.md
-
 ## 6. Fast is better than slow
-
-To edit or remove this principle, see /docs/principles.md
 
 ## 7. Let content determine breakpoints
 
-To edit or remove this principle, see /docs/principles.md
-
 ## 8. Strive for universality
-
-To edit or remove this principle, see /docs/principles.md
