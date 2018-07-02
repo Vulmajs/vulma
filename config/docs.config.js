@@ -105,7 +105,7 @@ module.exports = {
    * Custom wrapper template for the documentation.
    */
   template: {
-    title: "Example — Vue Design System",
+    title: "VulmaJs Design System",
     lang: "en",
     trimWhitespace: true,
     head: {
