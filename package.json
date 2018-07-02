@@ -1,5 +1,5 @@
 {
-  "name": "VulmaJs",
+  "name": "vulmajs",
   "version": "1.0.0",
   "description": "VulmaJs Design System is an open-source tool for building web apps with Vue.js",
   "author": "VulmaJs <info@vulmajs.com>",
@@ -8,7 +8,7 @@
     "dist/system"
   ],
   "homepage": "https://vulmajs.com",
-  "private": true,
+  "private": false,
   "license": "MIT",
   "scripts": {
     "dev": "webpack-dev-server --inline --config ./build/webpack.dev.conf.js",
