@@ -2,7 +2,7 @@
   <component :is="type" class="index">
     <nav-bar active="Index" :navItems="[
       {name: 'Template', component: 'Index', href: '/#/'},
-      {name: 'Living Docs', href: 'http://localhost:6060/'}
+      {name: 'Living Docs', href: '/docs/'}
     ]"/>
     <wrapper>
       <heading level="h1">VulmaJs Design System</heading>
@@ -20,7 +20,7 @@ export default {
   status: "under-review",
   release: "1.0.0",
   metaInfo: {
-    title: "Vue Design System",
+    title: "VulmaJs Design System",
     htmlAttrs: {
       lang: "en",
     },
