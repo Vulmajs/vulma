@@ -1,6 +1,6 @@
 {
   "name": "vulmajs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "VulmaJs Design System is an open-source tool for building web apps with Vue.js",
   "author": "VulmaJs <info@vulmajs.com>",
   "main": "dist/system/system.js",
