@@ -2,7 +2,7 @@
   <component :is="type" class="index">
     <nav-bar active="Index" :navItems="[
       {name: 'Template', component: 'Index', href: '/#/'},
-      {name: 'Living Docs', href: '/docs/'}
+      {name: 'Living Docs', href: docsUrl}
     ]"/>
     <wrapper>
       <heading level="h1">VulmaJs Design System</heading>
@@ -33,6 +33,14 @@ export default {
       type: String,
       default: "div",
     },
+  },
+  data() {
+    return {
+      docsUrl: "http://localhost:6060",
+    }
+  },
+  created() {
+    this.docsUrl = process.env.DOCS_URL
   },
 }
 </script>
