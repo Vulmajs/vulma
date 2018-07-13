@@ -1,22 +1,22 @@
 <template>
     <section>
         <div class="field">
-            <b-checkbox>Basic</b-checkbox>
+            <v-checkbox>Basic</v-checkbox>
         </div>
         <div class="field">
-            <b-checkbox v-model="checkbox">
+            <v-checkbox v-model="checkbox">
                 {{ checkbox }}
-            </b-checkbox>
+            </v-checkbox>
         </div>
         <div class="field">
-            <b-checkbox v-model="checkboxCustom"
+            <v-checkbox v-model="checkboxCustom"
                 true-value="Yes"
                 false-value="No">
                 {{ checkboxCustom }}
-            </b-checkbox>
+            </v-checkbox>
         </div>
         <div class="field">
-            <b-checkbox disabled>Disabled</b-checkbox>
+            <v-checkbox disabled>Disabled</v-checkbox>
         </div>
     </section>
 </template>

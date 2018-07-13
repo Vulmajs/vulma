@@ -1,35 +1,35 @@
 <template>
     <section>
-        <b-field grouped group-multiline>
-            <b-field label="Total">
-                <b-input type="number" v-model="total"></b-input>
-            </b-field>
-            <b-field label="Items per page">
-                <b-input type="number" v-model="perPage"></b-input>
-            </b-field>
-            <b-field label="Order">
-                <b-select v-model="order">
+        <v-field grouped group-multiline>
+            <v-field label="Total">
+                <v-input type="number" v-model="total"></v-input>
+            </v-field>
+            <v-field label="Items per page">
+                <v-input type="number" v-model="perPage"></v-input>
+            </v-field>
+            <v-field label="Order">
+                <v-select v-model="order">
                     <option value="">default</option>
                     <option value="is-centered">is-centered</option>
                     <option value="is-right">is-right</option>
-                </b-select>
-            </b-field>
-            <b-field label="Size">
-                <b-select v-model="size">
+                </v-select>
+            </v-field>
+            <v-field label="Size">
+                <v-select v-model="size">
                     <option value="">default</option>
                     <option value="is-small">is-small</option>
                     <option value="is-medium">is-medium</option>
                     <option value="is-large">is-large</option>
-                </b-select>
-            </b-field>
-        </b-field>
+                </v-select>
+            </v-field>
+        </v-field>
         <div class="block">
-            <b-switch v-model="isSimple">Simple</b-switch>
-            <b-switch v-model="isRounded">Rounded</b-switch>
+            <v-switch v-model="isSimple">Simple</v-switch>
+            <v-switch v-model="isRounded">Rounded</v-switch>
         </div>
 
         <hr>
-        <b-pagination
+        <v-pagination
             :total="total"
             :current.sync="current"
             :order="order"
@@ -37,7 +37,7 @@
             :simple="isSimple"
             :rounded="isRounded"
             :per-page="perPage">
-        </b-pagination>
+        </v-pagination>
     </section>
 </template>
 

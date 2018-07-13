@@ -18,10 +18,10 @@
         </div>
 
         <Example :component="ExSimple" :code="ExSimpleCode" vertical>
-            <b-message type="is-info">
+            <v-message type="is-info">
                 <p><strong>Sortable is not included in VulmaJs</strong>, you have to install it:</p>
                 <CodeView code="npm install sortablejs" expanded/>
-            </b-message>
+            </v-message>
         </Example>
     </div>
 </template>

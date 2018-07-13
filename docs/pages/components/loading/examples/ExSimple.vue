@@ -1,17 +1,17 @@
 <template>
     <section>
-        <b-field>
+        <v-field>
             <button class="button is-primary is-medium" @click="openLoading">
                 Launch loading
             </button>
-        </b-field>
-        <b-field>
-            <b-switch v-model="isFullPage">Display loader over full page</b-switch>
-        </b-field>
-        <b-notification :closable="false">
+        </v-field>
+        <v-field>
+            <v-switch v-model="isFullPage">Display loader over full page</v-switch>
+        </v-field>
+        <v-notification :closable="false">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id fermentum quam. Proin sagittis, nibh id hendrerit imperdiet, elit sapien laoreet elit
-            <b-loading :is-full-page="isFullPage" :active.sync="isLoading" :can-cancel="true"></b-loading>
-        </b-notification>
+            <v-loading :is-full-page="isFullPage" :active.sync="isLoading" :can-cancel="true"></v-loading>
+        </v-notification>
     </section>
 </template>
 

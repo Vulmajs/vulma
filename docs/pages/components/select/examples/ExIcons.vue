@@ -1,39 +1,39 @@
 <template>
     <section>
         <h3 class="subtitle">With Material Design Icons</h3>
-        <b-field>
-            <b-select placeholder="Country" icon="earth">
+        <v-field>
+            <v-select placeholder="Country" icon="earth">
                 <option value="1">Option 1</option>
                 <option value="2">Option 2</option>
-            </b-select>
-        </b-field>
+            </v-select>
+        </v-field>
 
-        <b-field>
-            <b-select placeholder="Client" icon="account">
+        <v-field>
+            <v-select placeholder="Client" icon="account">
                 <option value="1">Option 1</option>
                 <option value="2">Option 2</option>
-            </b-select>
-        </b-field>
+            </v-select>
+        </v-field>
 
         <h3 class="subtitle">With FontAwesome</h3>
-        <b-field>
-            <b-select
+        <v-field>
+            <v-select
                 placeholder="Country"
                 icon="globe"
                 icon-pack="fas">
                 <option value="1">Option 1</option>
                 <option value="2">Option 2</option>
-            </b-select>
-        </b-field>
+            </v-select>
+        </v-field>
 
-        <b-field>
-            <b-select
+        <v-field>
+            <v-select
                 placeholder="Client"
                 icon="user"
                 icon-pack="fas">
                 <option value="1">Option 1</option>
                 <option value="2">Option 2</option>
-            </b-select>
-        </b-field>
+            </v-select>
+        </v-field>
     </section>
 </template>

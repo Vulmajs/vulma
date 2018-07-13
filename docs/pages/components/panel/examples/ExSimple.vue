@@ -1,10 +1,10 @@
 <template>
     <section>
         <div class="block">
-            <b-switch v-model="isCollapsible">Collapsible</b-switch>
+            <v-switch v-model="isCollapsible">Collapsible</v-switch>
         </div>
 
-        <b-panel :collapsible="isCollapsible">
+        <v-panel :collapsible="isCollapsible">
             <strong slot="header">Title</strong>
             <div class="content">
                 <h3>
@@ -16,7 +16,7 @@
                     Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.
                 </p>
             </div>
-        </b-panel>
+        </v-panel>
     </section>
 </template>
 

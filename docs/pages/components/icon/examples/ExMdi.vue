@@ -1,66 +1,66 @@
 <template>
     <section>
         <div class="block">
-            <b-icon
+            <v-icon
                 icon="account"
                 size="is-small">
-            </b-icon>
-            <b-icon
+            </v-icon>
+            <v-icon
                 icon="home"
                 size="is-small">
-            </b-icon>
-            <b-icon
+            </v-icon>
+            <v-icon
                 icon="view-dashboard"
                 size="is-small">
-            </b-icon>
+            </v-icon>
         </div>
 
         <div class="block">
-            <b-icon icon="account"></b-icon>
-            <b-icon icon="home"></b-icon>
-            <b-icon icon="view-dashboard"></b-icon>
+            <v-icon icon="account"></v-icon>
+            <v-icon icon="home"></v-icon>
+            <v-icon icon="view-dashboard"></v-icon>
         </div>
 
         <div class="block">
-            <b-icon
+            <v-icon
                 icon="account"
                 size="is-medium">
-            </b-icon>
-            <b-icon
+            </v-icon>
+            <v-icon
                 icon="home"
                 size="is-medium">
-            </b-icon>
-            <b-icon
+            </v-icon>
+            <v-icon
                 icon="view-dashboard"
                 size="is-medium">
-            </b-icon>
+            </v-icon>
         </div>
 
         <div class="block">
-            <b-icon
+            <v-icon
                 icon="account"
                 size="is-large"
                 type="is-success">
-            </b-icon>
-            <b-icon
+            </v-icon>
+            <v-icon
                 icon="home"
                 size="is-large"
                 type="is-info">
-            </b-icon>
-            <b-icon
+            </v-icon>
+            <v-icon
                 icon="view-dashboard"
                 size="is-large"
                 type="is-primary">
-            </b-icon>
+            </v-icon>
         </div>
 
         <button class="button is-dark">
-            <b-icon icon="check"></b-icon>
+            <v-icon icon="check"></v-icon>
             <span>Finish</span>
         </button>
 
         <button class="button is-warning">
-            <b-icon icon="check"></b-icon>
+            <v-icon icon="check"></v-icon>
             <span>Finish</span>
         </button>
     </section>

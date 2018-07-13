@@ -1,9 +1,9 @@
 <template>
-    <b-taglist>
-        <b-tag type="is-info">First</b-tag>
-        <b-tag type="is-info">Second</b-tag>
-        <b-tag type="is-info">Third</b-tag>
-        <b-tag type="is-info">Fourth</b-tag>
-        <b-tag type="is-info">Fifth</b-tag>
-    </b-taglist>
+    <v-taglist>
+        <v-tag type="is-info">First</v-tag>
+        <v-tag type="is-info">Second</v-tag>
+        <v-tag type="is-info">Third</v-tag>
+        <v-tag type="is-info">Fourth</v-tag>
+        <v-tag type="is-info">Fifth</v-tag>
+    </v-taglist>
 </template>

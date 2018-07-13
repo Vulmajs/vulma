@@ -2,24 +2,24 @@
     <section>
         <button class="button field is-danger" @click="selected = null"
             :disabled="!selected">
-            <b-icon icon="close"></b-icon>
+            <v-icon icon="close"></v-icon>
             <span>Clear selected</span>
         </button>
 
-        <b-tabs>
-            <b-tab-item label="Table">
-                <b-table
+        <v-tabs>
+            <v-tav-item label="Table">
+                <v-table
                     :data="data"
                     :columns="columns"
                     :selected.sync="selected"
                     focusable>
-                </b-table>
-            </b-tab-item>
+                </v-table>
+            </v-tav-item>
 
-            <b-tab-item label="Selected">
+            <v-tav-item label="Selected">
                 <pre>{{ selected }}</pre>
-            </b-tab-item>
-        </b-tabs>
+            </v-tav-item>
+        </v-tabs>
     </section>
 </template>
 

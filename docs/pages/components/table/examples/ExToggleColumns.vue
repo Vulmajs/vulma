@@ -1,25 +1,25 @@
 <template>
     <section>
-        <b-field grouped group-multiline>
+        <v-field grouped group-multiline>
             <div v-for="(column, index) in columnsTemplate" 
                 :key="index"
                 class="control">
-                <b-checkbox v-model="column.visible">
+                <v-checkbox v-model="column.visible">
                     {{ column.title }}
-                </b-checkbox>
+                </v-checkbox>
             </div>
-        </b-field>
+        </v-field>
 
-        <b-table :data="tableDataSimple">
+        <v-table :data="tableDataSimple">
             <template slot-scope="props">
-                <b-table-column v-for="(column, index) in columnsTemplate"
+                <v-table-column v-for="(column, index) in columnsTemplate"
                     :key="index"
                     :label="column.title"
                     :visible="column.visible">
                     {{ props.row[column.field] }}
-                </b-table-column>
+                </v-table-column>
             </template>
-        </b-table>
+        </v-table>
     </section>
 </template>
 

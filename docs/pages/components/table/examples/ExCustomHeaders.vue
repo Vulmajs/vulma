@@ -1,11 +1,11 @@
 <template>
-    <b-table :data="data" :columns="columns">
+    <v-table :data="data" :columns="columns">
         <template slot-scope="props" slot="header">
-            <b-tooltip :active="!!props.column.meta" :label="props.column.meta" dashed>
+            <v-tooltip :active="!!props.column.meta" :label="props.column.meta" dashed>
                 {{ props.column.label }}
-            </b-tooltip>
+            </v-tooltip>
         </template>
-    </b-table>
+    </v-table>
 </template>
 
 <script>

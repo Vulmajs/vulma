@@ -1,33 +1,33 @@
 <template>
     <section>
-        <b-field horizontal label="Subject" type="is-danger" message="Please enter a subject">
-            <b-input name="subject" expanded></b-input>
-        </b-field>
+        <v-field horizontal label="Subject" type="is-danger" message="Please enter a subject">
+            <v-input name="subject" expanded></v-input>
+        </v-field>
 
-        <b-field horizontal label="From">
-            <b-input name="name" placeholder="Name" expanded></b-input>
-            <b-input name="email" type="email" placeholder="nobody@nowhere.com" expanded></b-input>
-        </b-field>
+        <v-field horizontal label="From">
+            <v-input name="name" placeholder="Name" expanded></v-input>
+            <v-input name="email" type="email" placeholder="nobody@nowhere.com" expanded></v-input>
+        </v-field>
 
-        <b-field horizontal label="Topic">
-            <b-select placeholder="Select a topic">
+        <v-field horizontal label="Topic">
+            <v-select placeholder="Select a topic">
                 <option value="1">Bulma</option>
                 <option value="2">Vue.js</option>
                 <option value="3">Buefy</option>
-            </b-select>
-        </b-field>
+            </v-select>
+        </v-field>
 
-        <b-field horizontal label="Message">
-            <b-input type="textarea"></b-input>
-        </b-field>
+        <v-field horizontal label="Message">
+            <v-input type="textarea"></v-input>
+        </v-field>
 
-        <b-field horizontal><!-- Label left empty for spacing -->
+        <v-field horizontal><!-- Label left empty for spacing -->
             <p class="control">
                 <button class="button is-primary">
                   Send message
                 </button>
             </p>
-        </b-field>
+        </v-field>
 
     </section>
 </template>

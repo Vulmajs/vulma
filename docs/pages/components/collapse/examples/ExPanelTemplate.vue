@@ -8,7 +8,7 @@
             </button>
         </div>
 
-        <b-collapse class="panel" :open.sync="isOpen">
+        <v-collapse class="panel" :open.sync="isOpen">
             <div slot="trigger" class="panel-heading">
                 <strong>Title</strong>
             </div>
@@ -22,7 +22,7 @@
                 Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. <br/>
                 Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.
             </div>
-        </b-collapse>
+        </v-collapse>
 
     </section>
 </template>

@@ -54,9 +54,9 @@
         </Example>
 
         <Example :component="ExToggleColumns" :code="ExToggleColumnsCode" title="Toggle columns">
-            <b-message type="is-danger">
+            <v-message type="is-danger">
                 Always use the <code>visible</code> prop to hide/show columns, and <strong>NOT</strong> <code>v-if</code> or <code>v-show</code>.
-            </b-message>
+            </v-message>
         </Example>
 
         <Example :component="ExFooter" :code="ExFooterCode" title="Footer"/>

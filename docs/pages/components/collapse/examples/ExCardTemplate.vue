@@ -1,15 +1,15 @@
 <template>
     <section>
 
-        <b-collapse class="card">
+        <v-collapse class="card">
             <div slot="trigger" slot-scope="props" class="card-header">
                 <p class="card-header-title">
                     Component
                 </p>
                 <a class="card-header-icon">
-                    <b-icon
+                    <v-icon
                         :icon="props.open ? 'menu-down' : 'menu-up'">
-                    </b-icon>
+                    </v-icon>
                 </a>
             </div>
             <div class="card-content">
@@ -23,7 +23,7 @@
                 <a class="card-footer-item">Edit</a>
                 <a class="card-footer-item">Delete</a>
             </footer>
-        </b-collapse>
+        </v-collapse>
 
     </section>
 </template>

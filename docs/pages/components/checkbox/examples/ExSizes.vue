@@ -1,16 +1,16 @@
 <template>
     <section>
         <div class="field">
-            <b-checkbox size="is-small">Small</b-checkbox>
+            <v-checkbox size="is-small">Small</v-checkbox>
         </div>
         <div class="field">
-            <b-checkbox>Default</b-checkbox>
+            <v-checkbox>Default</v-checkbox>
         </div>
         <div class="field">
-            <b-checkbox size="is-medium">Medium</b-checkbox>
+            <v-checkbox size="is-medium">Medium</v-checkbox>
         </div>
         <div class="field">
-            <b-checkbox size="is-large">Large</b-checkbox>
+            <v-checkbox size="is-large">Large</v-checkbox>
         </div>
     </section>
 </template>

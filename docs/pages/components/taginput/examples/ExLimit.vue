@@ -1,25 +1,25 @@
 <template>
     <section>
-        <b-field label="Limited to 10 characters">
-            <b-taginput
+        <v-field label="Limited to 10 characters">
+            <v-taginput
                 maxlength="10"
                 :value="['Bulma', 'Vue', 'Buefy']">
-            </b-taginput>
-        </b-field>
+            </v-taginput>
+        </v-field>
 
-        <b-field label="Limited to 5 tags">
-            <b-taginput
+        <v-field label="Limited to 5 tags">
+            <v-taginput
                 maxtags="5"
                 :value="['One', 'Two', 'Three', 'Four']">
-            </b-taginput>
-        </b-field>
+            </v-taginput>
+        </v-field>
 
-        <b-field label="Limited to 10 characters and 5 tags">
-            <b-taginput
+        <v-field label="Limited to 10 characters and 5 tags">
+            <v-taginput
                 maxlength="10"
                 maxtags="5"
                 :value="['Red', 'Green', 'Blue', 'White']">
-            </b-taginput>
-        </b-field>
+            </v-taginput>
+        </v-field>
     </section>
 </template>

@@ -1,23 +1,23 @@
 <template>
     <section>
-        <b-notification>
+        <v-notification>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id fermentum quam. Proin sagittis, nibh id hendrerit imperdiet, elit sapien laoreet elit
-        </b-notification>
+        </v-notification>
 
-        <b-notification type="is-info">
+        <v-notification type="is-info">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id fermentum quam. Proin sagittis, nibh id hendrerit imperdiet, elit sapien laoreet elit
-        </b-notification>
+        </v-notification>
 
-        <b-notification type="is-success">
+        <v-notification type="is-success">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id fermentum quam. Proin sagittis, nibh id hendrerit imperdiet, elit sapien laoreet elit
-        </b-notification>
+        </v-notification>
 
-        <b-notification type="is-warning">
+        <v-notification type="is-warning">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id fermentum quam. Proin sagittis, nibh id hendrerit imperdiet, elit sapien laoreet elit
-        </b-notification>
+        </v-notification>
 
-        <b-notification type="is-danger">
+        <v-notification type="is-danger">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id fermentum quam. Proin sagittis, nibh id hendrerit imperdiet, elit sapien laoreet elit
-        </b-notification>
+        </v-notification>
     </section>
 </template>

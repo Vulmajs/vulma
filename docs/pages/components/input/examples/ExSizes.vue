@@ -1,30 +1,30 @@
 <template>
     <section>
-        <b-field>
-            <b-input placeholder="Small"
+        <v-field>
+            <v-input placeholder="Small"
                 size="is-small"
                 icon="account">
-            </b-input>
-        </b-field>
+            </v-input>
+        </v-field>
 
-        <b-field>
-            <b-input placeholder="Default"
+        <v-field>
+            <v-input placeholder="Default"
                 icon="account">
-            </b-input>
-        </b-field>
+            </v-input>
+        </v-field>
 
-        <b-field>
-            <b-input placeholder="Medium"
+        <v-field>
+            <v-input placeholder="Medium"
                 size="is-medium"
                 icon="account">
-            </b-input>
-        </b-field>
+            </v-input>
+        </v-field>
 
-        <b-field>
-            <b-input placeholder="Large"
+        <v-field>
+            <v-input placeholder="Large"
                 size="is-large"
                 icon="account">
-            </b-input>
-        </b-field>
+            </v-input>
+        </v-field>
     </section>
 </template>

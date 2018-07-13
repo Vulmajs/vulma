@@ -1,9 +1,9 @@
 <template>
-    <b-field label="Select timepicker">
-        <b-timepicker
+    <v-field label="Select timepicker">
+        <v-timepicker
             placeholder="Type or select a date..."
             icon="clock"
             :readonly="false">
-        </b-timepicker>
-    </b-field>
+        </v-timepicker>
+    </v-field>
 </template>

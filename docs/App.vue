@@ -10,7 +10,7 @@
     import Clipboard from 'clipboard'
 
     export default {
-        name: 'Buefy',
+        name: 'Vulmajs',
         data() {
             return {
                 clipboard: null

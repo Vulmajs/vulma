@@ -1,33 +1,33 @@
 <template>
     <section>
-        <b-field grouped group-multiline>
+        <v-field grouped group-multiline>
             <div class="control">
-                <b-switch v-model="isBordered">Bordered</b-switch>
+                <v-switch v-model="isBordered">Bordered</v-switch>
             </div>
             <div class="control">
-                <b-switch v-model="isStriped">Striped</b-switch>
+                <v-switch v-model="isStriped">Striped</v-switch>
             </div>
             <div class="control">
-                <b-switch v-model="isNarrowed">Narrowed</b-switch>
+                <v-switch v-model="isNarrowed">Narrowed</v-switch>
             </div>
             <div class="control">
-                <b-switch v-model="isHoverable">Hoverable</b-switch>
+                <v-switch v-model="isHoverable">Hoverable</v-switch>
             </div>
             <div class="control">
-                <b-switch v-model="isFocusable">Focusable</b-switch>
+                <v-switch v-model="isFocusable">Focusable</v-switch>
             </div>
             <div class="control">
-                <b-switch v-model="isLoading">Loading state</b-switch>
+                <v-switch v-model="isLoading">Loading state</v-switch>
             </div>
             <div class="control">
-                <b-switch v-model="isEmpty">Empty</b-switch>
+                <v-switch v-model="isEmpty">Empty</v-switch>
             </div>
             <div class="control">
-                <b-switch v-model="hasMobileCards">Mobile cards <small>(collapsed rows)</small></b-switch>
+                <v-switch v-model="hasMobileCards">Mobile cards <small>(collapsed rows)</small></v-switch>
             </div>
-        </b-field>
+        </v-field>
 
-        <b-table
+        <v-table
             :data="isEmpty ? [] : data"
             :bordered="isBordered"
             :striped="isStriped"
@@ -38,46 +38,46 @@
             :mobile-cards="hasMobileCards">
 
             <template slot-scope="props">
-                <b-table-column field="id" label="ID" width="40" numeric>
+                <v-table-column field="id" label="ID" width="40" numeric>
                     {{ props.row.id }}
-                </b-table-column>
+                </v-table-column>
 
-                <b-table-column field="first_name" label="First Name">
+                <v-table-column field="first_name" label="First Name">
                     {{ props.row.first_name }}
-                </b-table-column>
+                </v-table-column>
 
-                <b-table-column field="last_name" label="Last Name">
+                <v-table-column field="last_name" label="Last Name">
                     {{ props.row.last_name }}
-                </b-table-column>
+                </v-table-column>
 
-                <b-table-column field="date" label="Date" centered>
+                <v-table-column field="date" label="Date" centered>
                     <span class="tag is-success">
                         {{ new Date(props.row.date).toLocaleDateString() }}
                     </span>
-                </b-table-column>
+                </v-table-column>
 
-                <b-table-column label="Gender">
-                    <b-icon pack="fas"
+                <v-table-column label="Gender">
+                    <v-icon pack="fas"
                         :icon="props.row.gender === 'Male' ? 'mars' : 'venus'">
-                    </b-icon>
+                    </v-icon>
                     {{ props.row.gender }}
-                </b-table-column>
+                </v-table-column>
             </template>
 
             <template slot="empty">
                 <section class="section">
                     <div class="content has-text-grey has-text-centered">
                         <p>
-                            <b-icon
+                            <v-icon
                                 icon="emoticon-sad"
                                 size="is-large">
-                            </b-icon>
+                            </v-icon>
                         </p>
                         <p>Nothing here.</p>
                     </div>
                 </section>
             </template>
-        </b-table>
+        </v-table>
     </section>
 </template>
 

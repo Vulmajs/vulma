@@ -2,13 +2,13 @@
     <section>
         <button class="button field is-danger" @click="checkedRows = []"
             :disabled="!checkedRows.length">
-            <b-icon icon="close"></b-icon>
+            <v-icon icon="close"></v-icon>
             <span>Clear checked</span>
         </button>
 
-        <b-tabs>
-            <b-tab-item label="Table">
-                <b-table
+        <v-tabs>
+            <v-tav-item label="Table">
+                <v-table
                     :data="data"
                     :columns="columns"
                     :checked-rows.sync="checkedRows"
@@ -18,13 +18,13 @@
                     <template slot="bottom-left">
                         <b>Total checked</b>: {{ checkedRows.length }}
                     </template>
-                </b-table>
-            </b-tab-item>
+                </v-table>
+            </v-tav-item>
 
-            <b-tab-item label="Checked rows">
+            <v-tav-item label="Checked rows">
                 <pre>{{ checkedRows }}</pre>
-            </b-tab-item>
-        </b-tabs>
+            </v-tav-item>
+        </v-tabs>
     </section>
 </template>
 

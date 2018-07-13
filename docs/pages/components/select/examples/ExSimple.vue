@@ -1,18 +1,18 @@
 <template>
     <section>
-        <b-field label="Simple">
-            <b-select placeholder="Select a name">
+        <v-field label="Simple">
+            <v-select placeholder="Select a name">
                 <option
                     v-for="option in data"
                     :value="option.id"
                     :key="option.id">
                     {{ option.user.first_name }}
                 </option>
-            </b-select>
-        </b-field>
+            </v-select>
+        </v-field>
 
-        <b-field label="Grouped">
-            <b-select placeholder="Select a character" icon="account">
+        <v-field label="Grouped">
+            <v-select placeholder="Select a character" icon="account">
                 <optgroup label="Black Sails">
                     <option value="flint">Flint</option>
                     <option value="silver">Silver</option>
@@ -34,61 +34,61 @@
                     <option value="daenerys-targaryen">Daenerys Targaryen</option>
                     <option value="jon-snow">Jon Snow</option>
                 </optgroup>
-            </b-select>
-        </b-field>
+            </v-select>
+        </v-field>
 
-        <b-field
+        <v-field
             label="Error"
             type="is-danger"
             message="Something went wrong with this field">
-            <b-select placeholder="Select a character">
+            <v-select placeholder="Select a character">
                 <option value="flint">Flint</option>
                 <option value="silver">Silver</option>
-            </b-select>
-        </b-field>
+            </v-select>
+        </v-field>
 
-        <b-field label="Rounded">
-            <b-select placeholder="Select a character" rounded>
+        <v-field label="Rounded">
+            <v-select placeholder="Select a character" rounded>
                 <option value="flint">Flint</option>
                 <option value="silver">Silver</option>
-            </b-select>
-        </b-field>
+            </v-select>
+        </v-field>
 
-        <b-field label="Required">
-            <b-select placeholder="Select a character" required>
+        <v-field label="Required">
+            <v-select placeholder="Select a character" required>
                 <option value="flint">Flint</option>
                 <option value="silver">Silver</option>
-            </b-select>
-        </b-field>
+            </v-select>
+        </v-field>
 
-        <b-field label="Loading">
-            <b-select placeholder="Select a character" loading>
+        <v-field label="Loading">
+            <v-select placeholder="Select a character" loading>
                 <option value="flint">Flint</option>
                 <option value="silver">Silver</option>
-            </b-select>
-        </b-field>
+            </v-select>
+        </v-field>
 
-        <b-field label="Disabled">
-            <b-select placeholder="Select a character" disabled>
+        <v-field label="Disabled">
+            <v-select placeholder="Select a character" disabled>
                 <option value="flint">Flint</option>
                 <option value="silver">Silver</option>
-            </b-select>
-        </b-field>
+            </v-select>
+        </v-field>
 
-        <b-field label="Disabled option">
-            <b-select placeholder="Select a character">
+        <v-field label="Disabled option">
+            <v-select placeholder="Select a character">
                 <option value="flint">Flint</option>
                 <option value="silver" disabled>Silver</option>
-            </b-select>
-        </b-field>
+            </v-select>
+        </v-field>
 
-        <b-field
+        <v-field
             label="Expanded">
-            <b-select placeholder="Select a character" expanded>
+            <v-select placeholder="Select a character" expanded>
                 <option value="flint">Flint</option>
                 <option value="silver">Silver</option>
-            </b-select>
-        </b-field>
+            </v-select>
+        </v-field>
     </section>
 </template>
 

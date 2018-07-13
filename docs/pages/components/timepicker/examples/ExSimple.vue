@@ -1,16 +1,16 @@
 <template>
     <section>
-        <b-field>
-            <b-switch v-model="formatAmPm">AM/PM</b-switch>
-        </b-field>
-        <b-field label="Select time">
-            <b-timepicker
+        <v-field>
+            <v-switch v-model="formatAmPm">AM/PM</v-switch>
+        </v-field>
+        <v-field label="Select time">
+            <v-timepicker
                 rounded
                 placeholder="Click to select..."
                 icon="clock"
                 :hour-format="format">
-            </b-timepicker>
-        </b-field>
+            </v-timepicker>
+        </v-field>
     </section>
 </template>
 

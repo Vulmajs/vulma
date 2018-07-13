@@ -1,11 +1,11 @@
 <template>
-    <b-field label="Select time">
-        <b-timepicker
+    <v-field label="Select time">
+        <v-timepicker
             placeholder="Click to select..."
             :min-time="minTime"
             :max-time="maxTime">
-        </b-timepicker>
-    </b-field>
+        </v-timepicker>
+    </v-field>
 </template>
 
 <script>

@@ -1,13 +1,13 @@
 <template>
     <section>
-        <b-field label="Add some tags">
-            <b-taginput
+        <v-field label="Add some tags">
+            <v-taginput
                 v-model="tags"
                 ellipsis
                 icon="label"
                 placeholder="Add a tag">
-            </b-taginput>
-        </b-field>
+            </v-taginput>
+        </v-field>
         <p class="content"><b>Tags:</b> {{ tags }}</p>
     </section>
 </template>

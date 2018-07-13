@@ -25,7 +25,7 @@
             </div>
             <div class="media-content">
                 <h3 class="subtitle">Set your variables with Sass</h3>
-                <b-message type="is-info">
+                <v-message type="is-info">
                     <div class="content">
                         <p><b>Tip:</b> You can see all Bulma's variables <a href="http://bulma.io/documentation/overview/variables/" target="_blank">here</a>.</p>
                         <p>There's also two other variables created by VulmaJs:</p>
@@ -34,10 +34,10 @@
                             <li><code>$speed-slower: 250ms !default</code></li>
                         </ol>
                     </div>
-                </b-message>
-                <b-message type="is-warning">
+                </v-message>
+                <v-message type="is-warning">
                     You might also have to install <code>node-sass</code> and <code>sass-loader</code> depending on your environment.
-                </b-message>
+                </v-message>
                 <p class="block">
                     It can be done in your <b>App.vue</b> within the <code>&lt;style lang="scss"&gt;</code> tag, or in a separate <b>.scss</b> file.
                 </p>
@@ -54,9 +54,9 @@
             </div>
             <div class="media-content">
                 <h3 class="subtitle">Import and use VulmaJs</h3>
-                <b-message type="is-warning">
+                <v-message type="is-warning">
                     Please note that <code class="javascript">import 'vulmajs/lib/vulmajs.css'</code> from the <router-link to="/documentation/start">start section</router-link> has been omitted.
-                </b-message>
+                </v-message>
                 <CodeView :code="importing | pre" lang="javascript" expanded/>
             </div>
         </div>

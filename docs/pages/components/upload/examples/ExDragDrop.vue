@@ -1,22 +1,22 @@
 <template>
     <section>
-        <b-field>
-            <b-upload v-model="dropFiles"
+        <v-field>
+            <v-upload v-model="dropFiles"
                 multiple
                 drag-drop>
                 <section class="section">
                     <div class="content has-text-centered">
                         <p>
-                            <b-icon
+                            <v-icon
                                 icon="upload"
                                 size="is-large">
-                            </b-icon>
+                            </v-icon>
                         </p>
                         <p>Drop your files here or click to upload</p>
                     </div>
                 </section>
-            </b-upload>
-        </b-field>
+            </v-upload>
+        </v-field>
 
         <div class="tags">
             <span v-for="(file, index) in dropFiles"

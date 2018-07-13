@@ -1,16 +1,16 @@
 <template>
     <section>
         <div class="field">
-            <b-switch size="is-small">Small</b-switch>
+            <v-switch size="is-small">Small</v-switch>
         </div>
         <div class="field">
-            <b-switch>Default</b-switch>
+            <v-switch>Default</v-switch>
         </div>
         <div class="field">
-            <b-switch size="is-medium">Medium</b-switch>
+            <v-switch size="is-medium">Medium</v-switch>
         </div>
         <div class="field">
-            <b-switch size="is-large">Large</b-switch>
+            <v-switch size="is-large">Large</v-switch>
         </div>
     </section>
 </template>

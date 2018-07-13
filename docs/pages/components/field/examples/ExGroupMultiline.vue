@@ -1,6 +1,6 @@
 <template>
-    <b-field grouped group-multiline>
-        <b-input></b-input>
+    <v-field grouped group-multiline>
+        <v-input></v-input>
         <p class="control">
             <button class="button">First</button>
         </p>
@@ -25,5 +25,5 @@
         <p class="control">
             <button class="button">Eighth</button>
         </p>
-    </b-field>
+    </v-field>
 </template>

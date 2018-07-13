@@ -1,16 +1,16 @@
 <template>
     <div>
-        <b-field>
+        <v-field>
             <button class="button is-primary is-medium" @click="open">
                 Launch loading
             </button>
-        </b-field>
-        <b-field>
-            <b-switch v-model="isFullPage">Display loader over full page</b-switch>
-        </b-field>
-        <b-notification ref="element" :closable="false">
+        </v-field>
+        <v-field>
+            <v-switch v-model="isFullPage">Display loader over full page</v-switch>
+        </v-field>
+        <v-notification ref="element" :closable="false">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id fermentum quam. Proin sagittis, nibh id hendrerit imperdiet, elit sapien laoreet elit
-        </b-notification>
+        </v-notification>
     </div>
 </template>
 

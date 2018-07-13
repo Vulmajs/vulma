@@ -1,21 +1,21 @@
 <template>
-    <b-field label="Select time">
-        <b-timepicker v-model="time"
+    <v-field label="Select time">
+        <v-timepicker v-model="time"
             placeholder="Click to select...">
 
             <button class="button is-primary"
                 @click="time = new Date()">
-                <b-icon icon="clock"></b-icon>
+                <v-icon icon="clock"></v-icon>
                 <span>Now</span>
             </button>
 
             <button class="button is-danger"
                 @click="time = null">
-                <b-icon icon="close"></b-icon>
+                <v-icon icon="close"></v-icon>
                 <span>Clear</span>
             </button>
-        </b-timepicker>
-    </b-field>
+        </v-timepicker>
+    </v-field>
 </template>
 
 <script>

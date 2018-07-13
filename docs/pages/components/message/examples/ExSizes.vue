@@ -1,19 +1,19 @@
 <template>
     <section>
-        <b-message title="Small" size="is-small">
+        <v-message title="Small" size="is-small">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id fermentum quam. Proin sagittis, nibh id hendrerit imperdiet, elit sapien laoreet elit
-        </b-message>
+        </v-message>
 
-        <b-message title="Default">
+        <v-message title="Default">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id fermentum quam. Proin sagittis, nibh id hendrerit imperdiet, elit sapien laoreet elit
-        </b-message>
+        </v-message>
 
-        <b-message title="Medium" size="is-medium">
+        <v-message title="Medium" size="is-medium">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id fermentum quam. Proin sagittis, nibh id hendrerit imperdiet, elit sapien laoreet elit
-        </b-message>
+        </v-message>
 
-        <b-message title="Large" size="is-large">
+        <v-message title="Large" size="is-large">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id fermentum quam. Proin sagittis, nibh id hendrerit imperdiet, elit sapien laoreet elit
-        </b-message>
+        </v-message>
     </section>
 </template>

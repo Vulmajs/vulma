@@ -1,31 +1,31 @@
 <template>
     <section>
         <div class="field">
-            <b-radio v-model="radio"
+            <v-radio v-model="radio"
                 size="is-small"
                 native-value="small">
                 Small
-            </b-radio>
+            </v-radio>
         </div>
         <div class="field">
-            <b-radio v-model="radio"
+            <v-radio v-model="radio"
                 native-value="default">
                 Default
-            </b-radio>
+            </v-radio>
         </div>
         <div class="field">
-            <b-radio v-model="radio"
+            <v-radio v-model="radio"
                 size="is-medium"
                 native-value="medium">
                 Medium
-            </b-radio>
+            </v-radio>
         </div>
         <div class="field">
-            <b-radio v-model="radio"
+            <v-radio v-model="radio"
                 size="is-large"
                 native-value="large">
                 Large
-            </b-radio>
+            </v-radio>
         </div>
     </section>
 </template>

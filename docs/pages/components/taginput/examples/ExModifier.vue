@@ -1,18 +1,18 @@
 <template>
     <section>
-        <b-field label="Rounded">
-            <b-taginput
+        <v-field label="Rounded">
+            <v-taginput
                 v-model="tags"
                 rounded>
-            </b-taginput>
-        </b-field>
+            </v-taginput>
+        </v-field>
 
-        <b-field label="Attached">
-            <b-taginput
+        <v-field label="Attached">
+            <v-taginput
                 v-model="tags"
                 attached>
-            </b-taginput>
-        </b-field>
+            </v-taginput>
+        </v-field>
     </section>
 </template>
 

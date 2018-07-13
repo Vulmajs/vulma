@@ -1,29 +1,29 @@
 <template>
     <section>
-        <b-field>
-            <b-input
+        <v-field>
+            <v-input
                 placeholder="Credit Card"
                 v-cleave="masks.creditCard">
-            </b-input>
-        </b-field>
+            </v-input>
+        </v-field>
 
-        <b-field>
-            <b-input
+        <v-field>
+            <v-input
                 placeholder="Numeral"
                 v-cleave="masks.numeral">
-            </b-input>
-        </b-field>
+            </v-input>
+        </v-field>
 
-        <b-field :addons="false">
-            <b-input
+        <v-field :addons="false">
+            <v-input
                 placeholder="Custom"
                 v-model="value"
                 v-cleave="masks.custom"
                 @input.native="getRawValue">
-            </b-input>
+            </v-input>
             <p><b>Formatted value (v-model)</b>: {{ value }}</p>
             <p><b>Raw value</b>: {{ rawValue }}</p>
-        </b-field>
+        </v-field>
     </section>
 </template>
 

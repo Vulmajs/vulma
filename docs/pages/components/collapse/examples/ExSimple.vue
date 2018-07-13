@@ -1,7 +1,7 @@
 <template>
     <section>
 
-        <b-collapse :open="false">
+        <v-collapse :open="false">
             <button class="button is-primary" slot="trigger">Click me!</button>
             <div class="notification">
                 <div class="content">
@@ -15,7 +15,7 @@
                     </p>
                 </div>
             </div>
-        </b-collapse>
+        </v-collapse>
 
     </section>
 </template>

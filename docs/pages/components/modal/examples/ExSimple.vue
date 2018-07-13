@@ -9,13 +9,13 @@
             Launch card modal (keep scroll)
         </button>
 
-        <b-modal :active.sync="isImageModalActive">
+        <v-modal :active.sync="isImageModalActive">
             <p class="image is-4by3">
                 <img src="static/img/placeholder-1280x960.png">
             </p>
-        </b-modal>
+        </v-modal>
 
-        <b-modal :active.sync="isCardModalActive" :width="640" scroll="keep">
+        <v-modal :active.sync="isCardModalActive" :width="640" scroll="keep">
             <div class="card">
                 <div class="card-image">
                     <figure class="image is-4by3">
@@ -44,7 +44,7 @@
                     </div>
                 </div>
             </div>
-        </b-modal>
+        </v-modal>
     </section>
 </template>
 

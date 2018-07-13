@@ -1,8 +1,8 @@
 <template>
-    <b-field label="Select a date">
-        <b-datepicker
+    <v-field label="Select a date">
+        <v-datepicker
             placeholder="Click to select..."
             icon="calendar-today">
-        </b-datepicker>
-    </b-field>
+        </v-datepicker>
+    </v-field>
 </template>

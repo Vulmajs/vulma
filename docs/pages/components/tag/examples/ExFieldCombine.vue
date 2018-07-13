@@ -1,45 +1,45 @@
 <template>
     <section>
-        <b-field grouped group-multiline>
+        <v-field grouped group-multiline>
             <div class="control">
-                <b-taglist attached>
-                    <b-tag type="is-dark">npm</b-tag>
-                    <b-tag type="is-info">0.5.1</b-tag>
-                </b-taglist>
+                <v-taglist attached>
+                    <v-tag type="is-dark">npm</v-tag>
+                    <v-tag type="is-info">0.5.1</v-tag>
+                </v-taglist>
             </div>
 
             <div class="control">
-                <b-taglist attached>
-                    <b-tag type="is-dark">downloads</b-tag>
-                    <b-tag type="is-success">15k</b-tag>
-                </b-taglist>
+                <v-taglist attached>
+                    <v-tag type="is-dark">downloads</v-tag>
+                    <v-tag type="is-success">15k</v-tag>
+                </v-taglist>
             </div>
 
             <div class="control">
-                <b-taglist attached>
-                    <b-tag type="is-dark">chat</b-tag>
-                    <b-tag type="is-primary">on discord</b-tag>
-                </b-taglist>
+                <v-taglist attached>
+                    <v-tag type="is-dark">chat</v-tag>
+                    <v-tag type="is-primary">on discord</v-tag>
+                </v-taglist>
             </div>
-        </b-field>
+        </v-field>
         <br>
 
-        <b-field grouped group-multiline>
+        <v-field grouped group-multiline>
             <div class="control">
-                <b-tag type="is-primary" attached closable>Technology</b-tag>
+                <v-tag type="is-primary" attached closable>Technology</v-tag>
             </div>
 
             <div class="control">
-                <b-tag type="is-primary" attached closable>Vuejs</b-tag>
+                <v-tag type="is-primary" attached closable>Vuejs</v-tag>
             </div>
 
             <div class="control">
-                <b-tag type="is-primary" attached closable>CSS</b-tag>
+                <v-tag type="is-primary" attached closable>CSS</v-tag>
             </div>
 
             <div class="control">
-                <b-tag type="is-primary" attached closable>Flexbox</b-tag>
+                <v-tag type="is-primary" attached closable>Flexbox</v-tag>
             </div>
-        </b-field>
+        </v-field>
     </section>
 </template>

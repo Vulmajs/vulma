@@ -1,12 +1,12 @@
 <template>
     <section>
         <div class="block">
-            <b-switch v-model="allowNew">
+            <v-switch v-model="allowNew">
                 Allow new tags
-            </b-switch>
+            </v-switch>
         </div>
-        <b-field label="Enter some tags">
-            <b-taginput
+        <v-field label="Enter some tags">
+            <v-taginput
                 v-model="tags"
                 :data="filteredTags"
                 autocomplete
@@ -15,8 +15,8 @@
                 icon="label"
                 placeholder="Add a tag"
                 @typing="getFilteredTags">
-            </b-taginput>
-        </b-field>
+            </v-taginput>
+        </v-field>
         <pre style="max-height: 400px"><b>Tags:</b>{{ tags }}</pre>
     </section>
 </template>

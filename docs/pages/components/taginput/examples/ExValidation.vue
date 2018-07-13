@@ -1,11 +1,11 @@
 <template>
     <section>
-        <b-field label="Tags with 3 characters">
-            <b-taginput
+        <v-field label="Tags with 3 characters">
+            <v-taginput
                 v-model="tags" 
                 :before-adding="beforeAdding">
-            </b-taginput>
-        </b-field>
+            </v-taginput>
+        </v-field>
     </section>
 </template>
 

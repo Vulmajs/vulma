@@ -1,22 +1,22 @@
 <template>
     <section>
         <div class="field">
-            <b-switch>Default</b-switch>
+            <v-switch>Default</v-switch>
         </div>
         <div class="field">
-            <b-switch v-model="isSwitched">
+            <v-switch v-model="isSwitched">
                 {{ isSwitched }}
-            </b-switch>
+            </v-switch>
         </div>
         <div class="field">
-            <b-switch v-model="isSwitchedCustom"
+            <v-switch v-model="isSwitchedCustom"
                 true-value="Yes"
                 false-value="No">
                 {{ isSwitchedCustom }}
-            </b-switch>
+            </v-switch>
         </div>
         <div class="field">
-            <b-switch disabled>Disabled</b-switch>
+            <v-switch disabled>Disabled</v-switch>
         </div>
     </section>
 </template>

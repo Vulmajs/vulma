@@ -1,15 +1,15 @@
 <template>
     <section>
-        <b-tabs position="is-centered" class="block">
-            <b-tab-item label="Pictures"></b-tab-item>
-            <b-tab-item label="Music"></b-tab-item>
-            <b-tab-item label="Videos"></b-tab-item>
-        </b-tabs>
+        <v-tabs position="is-centered" class="block">
+            <v-tab-item label="Pictures"></v-tab-item>
+            <v-tab-item label="Music"></v-tab-item>
+            <v-tab-item label="Videos"></v-tab-item>
+        </v-tabs>
 
-        <b-tabs position="is-right" class="block">
-            <b-tab-item label="Pictures"></b-tab-item>
-            <b-tab-item label="Music"></b-tab-item>
-            <b-tab-item label="Videos"></b-tab-item>
-        </b-tabs>
+        <v-tabs position="is-right" class="block">
+            <v-tab-item label="Pictures"></v-tab-item>
+            <v-tab-item label="Music"></v-tab-item>
+            <v-tab-item label="Videos"></v-tab-item>
+        </v-tabs>
     </section>
 </template>

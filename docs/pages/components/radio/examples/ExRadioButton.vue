@@ -1,31 +1,31 @@
 <template>
     <section>
-        <b-field>
-            <b-radio-button v-model="radioButton"
+        <v-field>
+            <v-radio-button v-model="radioButton"
                 native-value="Nop"
                 type="is-danger">
-                <b-icon icon="close"></b-icon>
+                <v-icon icon="close"></v-icon>
                 <span>Nop</span>
-            </b-radio-button>
+            </v-radio-button>
 
-            <b-radio-button v-model="radioButton"
+            <v-radio-button v-model="radioButton"
                 native-value="Yep"
                 type="is-success">
-                <b-icon icon="check"></b-icon>
+                <v-icon icon="check"></v-icon>
                 <span>Yep</span>
-            </b-radio-button>
+            </v-radio-button>
 
-            <b-radio-button v-model="radioButton"
+            <v-radio-button v-model="radioButton"
                 native-value="Default">
                 Default
-            </b-radio-button>
+            </v-radio-button>
 
-            <b-radio-button v-model="radioButton"
+            <v-radio-button v-model="radioButton"
                 native-value="Disabled"
                 disabled>
                 Disabled
-            </b-radio-button>
-        </b-field>
+            </v-radio-button>
+        </v-field>
         <p class="content">
             <b>Selection:</b>
             {{ radioButton }}

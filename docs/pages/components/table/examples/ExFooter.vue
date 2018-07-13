@@ -1,32 +1,32 @@
 <template>
     <section>
-        <b-field grouped group-multiline>
+        <v-field grouped group-multiline>
             <div class="control">
-                <b-switch v-model="isCustom">Custom</b-switch>
+                <v-switch v-model="isCustom">Custom</v-switch>
             </div>
-        </b-field>
-        <b-table :data="tableDataSimple">
+        </v-field>
+        <v-table :data="tableDataSimple">
 
             <template slot-scope="props">
-                <b-table-column label="ID" width="40" numeric>
+                <v-table-column label="ID" width="40" numeric>
                     {{ props.row.id }}
-                </b-table-column>
+                </v-table-column>
 
-                <b-table-column label="First Name">
+                <v-table-column label="First Name">
                     {{ props.row.first_name }}
-                </b-table-column>
+                </v-table-column>
 
-                <b-table-column label="Last Name">
+                <v-table-column label="Last Name">
                     {{ props.row.last_name }}
-                </b-table-column>
+                </v-table-column>
 
-                <b-table-column label="Date" centered>
+                <v-table-column label="Date" centered>
                     {{ new Date(props.row.date).toLocaleDateString() }}
-                </b-table-column>
+                </v-table-column>
 
-                <b-table-column label="Gender">
+                <v-table-column label="Gender">
                     {{ props.row.gender }}
-                </b-table-column>
+                </v-table-column>
             </template>
 
             <template slot="footer" v-if="!isCustom">
@@ -52,7 +52,7 @@
                 </th>
             </template>
 
-        </b-table>
+        </v-table>
     </section>
 </template>
 

@@ -2,7 +2,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
-import Buefy from '../src'
+import Vulmajs from '../src'
 import Axios from 'axios'
 import VueProgressBar from 'vue-progressbar'
 import VueAnalytics from 'vue-analytics'
@@ -20,7 +20,7 @@ global.Promise = Bluebird
 Vue.prototype.$http = Axios
 Vue.prototype.$eventHub = new Vue()
 
-Vue.use(Buefy, {
+Vue.use(Vulmajs, {
     // defaultIconPack: 'fa',
     // defaultSnackbarDuration: 999999,
     // defaultToastDuration: 999999

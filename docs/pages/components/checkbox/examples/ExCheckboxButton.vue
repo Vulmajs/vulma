@@ -1,31 +1,31 @@
 <template>
     <section>
-        <b-field>
-            <b-checkbox-button v-model="checkboxGroup"
+        <v-field>
+            <v-checkbox-button v-model="checkboxGroup"
                 native-value="Nop"
                 type="is-danger">
-                <b-icon icon="close"></b-icon>
+                <v-icon icon="close"></v-icon>
                 <span>Nop</span>
-            </b-checkbox-button>
+            </v-checkbox-button>
 
-            <b-checkbox-button v-model="checkboxGroup"
+            <v-checkbox-button v-model="checkboxGroup"
                 native-value="Yep"
                 type="is-success">
-                <b-icon icon="check"></b-icon>
+                <v-icon icon="check"></v-icon>
                 <span>Yep</span>
-            </b-checkbox-button>
+            </v-checkbox-button>
 
-            <b-checkbox-button v-model="checkboxGroup"
+            <v-checkbox-button v-model="checkboxGroup"
                 native-value="Default">
                 Default
-            </b-checkbox-button>
+            </v-checkbox-button>
 
-            <b-checkbox-button v-model="checkboxGroup"
+            <v-checkbox-button v-model="checkboxGroup"
                 native-value="Disabled"
                 disabled>
                 Disabled
-            </b-checkbox-button>
-        </b-field>
+            </v-checkbox-button>
+        </v-field>
         <p class="content">
             <b>Selection:</b>
             {{ checkboxGroup }}

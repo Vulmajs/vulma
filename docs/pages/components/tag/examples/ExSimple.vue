@@ -1,6 +1,6 @@
 <template>
     <section>
-        <b-tag>Tag label</b-tag>
-        <b-tag rounded>Rounded tag label</b-tag>
+        <v-tag>Tag label</v-tag>
+        <v-tag rounded>Rounded tag label</v-tag>
     </section>
 </template>

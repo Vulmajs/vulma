@@ -1,21 +1,21 @@
 <template>
     <section>
-        <b-field position="is-centered">
-            <b-input placeholder="Search..." type="search" icon="magnify">
-            </b-input>
+        <v-field position="is-centered">
+            <v-input placeholder="Search..." type="search" icon="magnify">
+            </v-input>
             <p class="control">
                 <button class="button is-info">Search</button>
             </p>
-        </b-field>
+        </v-field>
 
         <hr>
 
-        <b-field grouped position="is-right">
-            <b-input placeholder="Search..." type="search" icon="magnify">
-            </b-input>
+        <v-field grouped position="is-right">
+            <v-input placeholder="Search..." type="search" icon="magnify">
+            </v-input>
             <p class="control">
                 <button class="button is-info">Search</button>
             </p>
-        </b-field>
+        </v-field>
     </section>
 </template>

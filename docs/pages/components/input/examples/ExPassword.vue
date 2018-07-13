@@ -1,16 +1,16 @@
 <template>
     <section>
-        <b-field>
-            <b-input type="password"
+        <v-field>
+            <v-input type="password"
                 placeholder="Regular password input">
-            </b-input>
-        </b-field>
+            </v-input>
+        </v-field>
 
-        <b-field>
-            <b-input type="password"
+        <v-field>
+            <v-input type="password"
                 placeholder="Password reveal input"
                 password-reveal>
-            </b-input>
-        </b-field>
+            </v-input>
+        </v-field>
     </section>
 </template>

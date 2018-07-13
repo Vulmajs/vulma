@@ -26,9 +26,9 @@
         <Example :component="ExAddons" :code="ExAddonsCode" title="Addons" vertical>
             <p>The above cited components are automatically attached together when inside a Field.</p>
             <p>Use the <code>expanded</code> prop <u>on the control</u> to <b>fill up the remaining space</b>.</p>
-            <b-message type="is-info">
+            <v-message type="is-info">
                 <b>Note:</b> Beware of its responsiveness, avoid large groups of addons since they don't break lines.
-            </b-message>
+            </v-message>
         </Example>
 
         <Example :component="ExGroups" :code="ExGroupsCode" title="Groups">
@@ -62,10 +62,10 @@
                 <span class="tag is-info">0.6.2</span>
             </div>
             <p>Add the <code>horizontal</code> prop for aligning label and control in horizontal forms.</p>
-            <b-message type="is-info">
-                <b>Note:</b> Each child element of a <code>&lt;b-field horizontal/&gt;</code> will be
+            <v-message type="is-info">
+                <b>Note:</b> Each child element of a <code>&lt;v-field horizontal/&gt;</code> will be
                 automatically wrapped inside a <code>Field</code> component.
-            </b-message>
+            </v-message>
         </Example>
 
         <Example :component="ExCustomClass" :code="ExCustomClassCode" title="Label classes">

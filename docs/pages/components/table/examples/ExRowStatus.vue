@@ -1,9 +1,9 @@
 <template>
-    <b-table
+    <v-table
         :data="data"
         :columns="columns"
         :row-class="(row, index) => row.id === 1 && 'is-info'">
-    </b-table>
+    </v-table>
 </template>
 
 <script>

@@ -13,9 +13,9 @@
 
         <Example :component="ExMdi" :code="ExMdiCode" title="Material Design Icons" vertical/>
 
-        <b-message type="is-info">
+        <v-message type="is-info">
             Using <code>far</code> or <code>fad</code> while having FontAwesome free tier might have missing icons.
-        </b-message>
+        </v-message>
         <Example :component="ExFa" :code="ExFaCode" title="FontAwesome" vertical/>
 
         <ApiView :data="api"/>

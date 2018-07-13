@@ -1,16 +1,16 @@
 <template>
-    <b-tabs type="is-boxed">
-        <b-tab-item>
+    <v-tabs type="is-boxed">
+        <v-tab-item>
             <template slot="header">
-                <b-icon icon="information-outline"></b-icon>
-                <span> Issues <b-tag rounded> 3 </b-tag> </span>
+                <v-icon icon="information-outline"></v-icon>
+                <span> Issues <v-tag rounded> 3 </v-tag> </span>
             </template>
-        </b-tab-item>
-        <b-tab-item>
+        </v-tab-item>
+        <v-tab-item>
             <template slot="header">
-                <b-icon icon="source-pull"></b-icon>
-                <span> Pull Requests <b-tag rounded> 1 </b-tag> </span>
+                <v-icon icon="source-pull"></v-icon>
+                <span> Pull Requests <v-tag rounded> 1 </v-tag> </span>
             </template>
-        </b-tab-item>
-    </b-tabs>
+        </v-tab-item>
+    </v-tabs>
 </template>

@@ -1,27 +1,27 @@
 <template>
-    <b-field label="Select a date">
-        <b-datepicker :focused-date="date"
+    <v-field label="Select a date">
+        <v-datepicker :focused-date="date"
             :first-day-of-week="1"
             placeholder="Click to select...">
 
             <template slot="header">
-                <b-field>
-                    <b-autocomplete
+                <v-field>
+                    <v-autocomplete
                         open-on-focus
                         readonly
                         v-model="month"
                         :data="months"
                         field="name"
                         @select="selectMonth">
-                    </b-autocomplete>
+                    </v-autocomplete>
                     <p class="control">
                         <span class="button is-static">{{ date.getFullYear() }}</span>
                     </p>
-                </b-field>
+                </v-field>
             </template>
 
-        </b-datepicker>
-    </b-field>
+        </v-datepicker>
+    </v-field>
 </template>
 
 <script>

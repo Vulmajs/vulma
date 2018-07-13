@@ -1,15 +1,15 @@
 <template>
     <span>
-        <b-field>
-            <b-switch v-model="bars">Bars</b-switch>
-        </b-field>
-        <b-datepicker
+        <v-field>
+            <v-switch v-model="bars">Bars</v-switch>
+        </v-field>
+        <v-datepicker
             inline
             v-model="date" 
             :events="events"
             :indicators="indicators"
             >
-        </b-datepicker>
+        </v-datepicker>
     </span>
 </template>
 

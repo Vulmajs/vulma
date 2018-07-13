@@ -1,16 +1,16 @@
 <template>
-    <b-field grouped>
-        <b-field label="Personal title">
-            <b-select>
+    <v-field grouped>
+        <v-field label="Personal title">
+            <v-select>
                 <option>Mr.</option>
                 <option>Ms.</option>
-            </b-select>
-        </b-field>
-        <b-field label="Name" expanded>
-            <b-input></b-input>
-        </b-field>
-        <b-field label="Email" expanded>
-            <b-input></b-input>
-        </b-field>
-    </b-field>
+            </v-select>
+        </v-field>
+        <v-field label="Name" expanded>
+            <v-input></v-input>
+        </v-field>
+        <v-field label="Email" expanded>
+            <v-input></v-input>
+        </v-field>
+    </v-field>
 </template>

@@ -5,7 +5,7 @@ module.exports = {
     jest: true,
   },
   extends: [
-    'vulmajs',
+    'buefy',
   ],
   rules: {
     // disable now, but enable in the future

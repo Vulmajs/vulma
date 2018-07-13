@@ -1,8 +1,8 @@
 <template>
     <section>
         <p class="content"><b>selected</b>: {{ selectedOptions }}</p>
-        <b-field>
-            <b-select
+        <v-field>
+            <v-select
                 multiple
                 native-size="8"
                 v-model="selectedOptions">
@@ -15,8 +15,8 @@
                 <option value="jesse">Jesse</option>
                 <option value="saul">Saul</option>
                 <option value="mike">Mike</option>
-            </b-select>
-        </b-field>
+            </v-select>
+        </v-field>
     </section>
 </template>
 

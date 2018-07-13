@@ -1,5 +1,5 @@
 <template>
-    <b-table
+    <v-table
         :data="data"
         paginated
         per-page="5"
@@ -10,30 +10,30 @@
     >
 
         <template slot-scope="props">
-            <b-table-column field="id" label="ID" width="40" numeric>
+            <v-table-column field="id" label="ID" width="40" numeric>
                 {{ props.row.id }}
-            </b-table-column>
+            </v-table-column>
 
-            <b-table-column field="user.first_name" label="First Name" sortable>
+            <v-table-column field="user.first_name" label="First Name" sortable>
                 {{ props.row.user.first_name }}
-            </b-table-column>
+            </v-table-column>
 
-            <b-table-column field="user.last_name" label="Last Name" sortable>
+            <v-table-column field="user.last_name" label="Last Name" sortable>
                 {{ props.row.user.last_name }}
-            </b-table-column>
+            </v-table-column>
 
-            <b-table-column field="date" label="Date" sortable centered>
+            <v-table-column field="date" label="Date" sortable centered>
                 <span class="tag is-success">
                     {{ new Date(props.row.date).toLocaleDateString() }}
                 </span>
-            </b-table-column>
+            </v-table-column>
 
-            <b-table-column label="Gender">
-                <b-icon pack="fa"
+            <v-table-column label="Gender">
+                <v-icon pack="fa"
                     :icon="props.row.gender === 'Male' ? 'mars' : 'venus'">
-                </b-icon>
+                </v-icon>
                 {{ props.row.gender }}
-            </b-table-column>
+            </v-table-column>
         </template>
 
         <template slot="detail" slot-scope="props">
@@ -58,7 +58,7 @@
                 </div>
             </article>
         </template>
-    </b-table>
+    </v-table>
 </template>
 
 <script>

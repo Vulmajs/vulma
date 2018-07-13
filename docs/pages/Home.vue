@@ -50,17 +50,17 @@
                 <div class="container">
                     <nav class="columns">
                         <div class="column has-text-centered features">
-                            <b-icon icon="github-circle" size="is-large"/>
+                            <v-icon icon="github-circle" size="is-large"/>
                             <p class="title is-4"><strong>Free</strong></p>
                             <p class="subtitle">Open source on <strong><a href="https://github.com/vulmajs/vulma" target="_blank">GitHub</a></strong></p>
                         </div>
                         <div class="column has-text-centered features">
-                            <b-icon icon="cellphone-link" size="is-large"/>
+                            <v-icon icon="cellphone-link" size="is-large"/>
                             <p class="title is-4"><strong>Responsive</strong></p>
                             <p class="subtitle"><b>Every</b> component is responsive</p>
                         </div>
                         <div class="column has-text-centered features">
-                            <b-icon icon="alert-decagram" size="is-large"/>
+                            <v-icon icon="alert-decagram" size="is-large"/>
                             <p class="title is-4"><strong>Modern</strong></p>
                             <p class="subtitle">
                                 Built with <strong><a href="https://vuejs.org/" target="_blank">Vue.js</a></strong>
@@ -68,7 +68,7 @@
                             </p>
                         </div>
                         <div class="column has-text-centered features">
-                            <b-icon pack="far" icon="paper-plane" size="is-large"/>
+                            <v-icon pack="far" icon="paper-plane" size="is-large"/>
                             <p class="title is-4"><strong>Lightweight</strong></p>
                             <p class="subtitle">No other internal dependency</p>
                         </div>

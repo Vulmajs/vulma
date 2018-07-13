@@ -1,33 +1,33 @@
 <template>
     <section>
         <div class="field">
-            <b-checkbox :value="true">
+            <v-checkbox :value="true">
                 Default
-            </b-checkbox>
+            </v-checkbox>
         </div>
         <div class="field">
-            <b-checkbox :value="true"
+            <v-checkbox :value="true"
             type="is-info">
                 Info
-            </b-checkbox>
+            </v-checkbox>
         </div>
         <div class="field">
-            <b-checkbox :value="true"
+            <v-checkbox :value="true"
             type="is-success">
                 Success
-            </b-checkbox>
+            </v-checkbox>
         </div>
         <div class="field">
-            <b-checkbox :value="true"
+            <v-checkbox :value="true"
             type="is-danger">
                 Danger
-            </b-checkbox>
+            </v-checkbox>
         </div>
         <div class="field">
-            <b-checkbox :value="true"
+            <v-checkbox :value="true"
             type="is-warning">
                 Warning
-            </b-checkbox>
+            </v-checkbox>
         </div>
     </section>
 </template>

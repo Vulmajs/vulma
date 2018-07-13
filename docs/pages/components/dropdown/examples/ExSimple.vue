@@ -1,47 +1,47 @@
 <template>
     <section>
-        <b-dropdown>
+        <v-dropdown>
             <button class="button is-primary" slot="trigger">
                 <span>Click me!</span>
-                <b-icon icon="menu-down"></b-icon>
+                <v-icon icon="menu-down"></v-icon>
             </button>
 
-            <b-dropdown-item>Action</b-dropdown-item>
-            <b-dropdown-item>Another action</b-dropdown-item>
-            <b-dropdown-item>Something else</b-dropdown-item>
-        </b-dropdown>
+            <v-dropdown-item>Action</v-dropdown-item>
+            <v-dropdown-item>Another action</v-dropdown-item>
+            <v-dropdown-item>Something else</v-dropdown-item>
+        </v-dropdown>
 
-        <b-dropdown hoverable>
+        <v-dropdown hoverable>
             <button class="button is-info" slot="trigger">
                 <span>Hover me!</span>
-                <b-icon icon="menu-down"></b-icon>
+                <v-icon icon="menu-down"></v-icon>
             </button>
 
-            <b-dropdown-item>Action</b-dropdown-item>
-            <b-dropdown-item>Another action</b-dropdown-item>
-            <b-dropdown-item>Something else</b-dropdown-item>
-        </b-dropdown>
+            <v-dropdown-item>Action</v-dropdown-item>
+            <v-dropdown-item>Another action</v-dropdown-item>
+            <v-dropdown-item>Something else</v-dropdown-item>
+        </v-dropdown>
 
-        <b-dropdown disabled>
+        <v-dropdown disabled>
             <button class="button" slot="trigger">
                 <span>Disabled</span>
-                <b-icon icon="menu-down"></b-icon>
+                <v-icon icon="menu-down"></v-icon>
             </button>
 
-            <b-dropdown-item>Action</b-dropdown-item>
-            <b-dropdown-item>Another action</b-dropdown-item>
-            <b-dropdown-item>Something else</b-dropdown-item>
-        </b-dropdown>
+            <v-dropdown-item>Action</v-dropdown-item>
+            <v-dropdown-item>Another action</v-dropdown-item>
+            <v-dropdown-item>Something else</v-dropdown-item>
+        </v-dropdown>
 
-        <b-dropdown>
+        <v-dropdown>
             <p class="tag is-success" slot="trigger">
                 Custom trigger
             </p>
 
-            <b-dropdown-item>Action</b-dropdown-item>
-            <b-dropdown-item>Another action</b-dropdown-item>
-            <b-dropdown-item>Something else</b-dropdown-item>
-        </b-dropdown>
+            <v-dropdown-item>Action</v-dropdown-item>
+            <v-dropdown-item>Another action</v-dropdown-item>
+            <v-dropdown-item>Something else</v-dropdown-item>
+        </v-dropdown>
     </section>
 </template>
 

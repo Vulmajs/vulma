@@ -1,37 +1,37 @@
 <template>
     <section>
-        <b-table v-sortable="sortableOptions" 
+        <v-table v-sortable="sortableOptions" 
             :data="data"
             @click="(row) => $toast.open(`Clicked ${row.first_name}`)">
 
             <template slot-scope="props">
-                <b-table-column field="id" label="ID" width="40" numeric>
+                <v-table-column field="id" label="ID" width="40" numeric>
                     {{ props.row.id }}
-                </b-table-column>
+                </v-table-column>
 
-                <b-table-column field="first_name" label="First Name">
+                <v-table-column field="first_name" label="First Name">
                     {{ props.row.first_name }}
-                </b-table-column>
+                </v-table-column>
 
-                <b-table-column field="last_name" label="Last Name">
+                <v-table-column field="last_name" label="Last Name">
                     {{ props.row.last_name }}
-                </b-table-column>
+                </v-table-column>
 
-                <b-table-column field="date" label="Date" centered>
+                <v-table-column field="date" label="Date" centered>
                     <span class="tag is-success">
                         {{ new Date(props.row.date).toLocaleDateString() }}
                     </span>
-                </b-table-column>
+                </v-table-column>
 
-                <b-table-column label="Gender">
-                    <b-icon pack="fas"
+                <v-table-column label="Gender">
+                    <v-icon pack="fas"
                         :icon="props.row.gender === 'Male' ? 'mars' : 'venus'">
-                    </b-icon>
+                    </v-icon>
                     {{ props.row.gender }}
-                </b-table-column>
+                </v-table-column>
             </template>
 
-        </b-table>
+        </v-table>
     </section>
 </template>
 

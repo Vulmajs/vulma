@@ -1,49 +1,49 @@
 <template>
     <section>
-        <b-field
+        <v-field
             label="Success"
             type="is-success">
-            <b-taginput
+            <v-taginput
                 :value="['Tag']">
-            </b-taginput>
-        </b-field>
+            </v-taginput>
+        </v-field>
 
-        <b-field
+        <v-field
             label="Error"
             type="is-danger">
-            <b-taginput
+            <v-taginput
                 :value="['Tag']">
-            </b-taginput>
-        </b-field>
+            </v-taginput>
+        </v-field>
 
-        <b-field
+        <v-field
             label="Info"
             type="is-info">
-            <b-taginput
+            <v-taginput
                 :value="['Tag']">
-            </b-taginput>
-        </b-field>
+            </v-taginput>
+        </v-field>
 
-        <b-field
+        <v-field
             label="Warning"
             type="is-warning">
-            <b-taginput
+            <v-taginput
                 :value="['Tag']">
-            </b-taginput>
-        </b-field>
+            </v-taginput>
+        </v-field>
 
-        <b-field label="Disabled">
-            <b-taginput
+        <v-field label="Disabled">
+            <v-taginput
                 :value="['Tag']"
                 disabled>
-            </b-taginput>
-        </b-field>
+            </v-taginput>
+        </v-field>
 
-        <b-field label="Loading">
-            <b-taginput
+        <v-field label="Loading">
+            <v-taginput
                 :value="['Tag']"
                 loading>
-            </b-taginput>
-        </b-field>
+            </v-taginput>
+        </v-field>
     </section>
 </template>

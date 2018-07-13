@@ -1,31 +1,31 @@
 <template>
     <section>
         <div class="field">
-            <b-tag v-if="isTag1Active"
+            <v-tag v-if="isTag1Active"
                 type="is-primary"
                 closable
                 @close="isTag1Active = false">
                 Colored closable tag label
-            </b-tag>
+            </v-tag>
         </div>
 
         <div class="field">
-            <b-tag v-if="isTag2Active"
+            <v-tag v-if="isTag2Active"
                 attached
                 closable
                 @close="isTag2Active = false">
                 Attached closable tag label
-            </b-tag>
+            </v-tag>
         </div>
 
         <div class="field">
-            <b-tag v-if="isTag3Active"
+            <v-tag v-if="isTag3Active"
                 type="is-danger"
                 attached
                 closable
                 @close="isTag3Active = false">
                 Colored attached closable tag label
-            </b-tag>
+            </v-tag>
         </div>
     </section>
 </template>

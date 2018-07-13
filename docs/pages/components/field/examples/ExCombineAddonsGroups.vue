@@ -1,16 +1,16 @@
 <template>
-    <b-field grouped>
-        <b-field label="Name" expanded>
-            <b-field>
-                <b-select placeholder="Title">
+    <v-field grouped>
+        <v-field label="Name" expanded>
+            <v-field>
+                <v-select placeholder="Title">
                     <option>Mr.</option>
                     <option>Ms.</option>
-                </b-select>
-                <b-input placeholder="Name" expanded></b-input>
-            </b-field>
-        </b-field>
-        <b-field label="Email" expanded>
-            <b-input placeholder="some@email.com"></b-input>
-        </b-field>
-    </b-field>
+                </v-select>
+                <v-input placeholder="Name" expanded></v-input>
+            </v-field>
+        </v-field>
+        <v-field label="Email" expanded>
+            <v-input placeholder="some@email.com"></v-input>
+        </v-field>
+    </v-field>
 </template>

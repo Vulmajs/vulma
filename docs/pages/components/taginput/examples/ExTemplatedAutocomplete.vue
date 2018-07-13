@@ -1,7 +1,7 @@
 <template>
     <section>
-        <b-field label="Enter some tags">
-            <b-taginput
+        <v-field label="Enter some tags">
+            <v-taginput
                 v-model="tags"
                 :data="filteredTags"
                 autocomplete
@@ -15,8 +15,8 @@
                 <template slot="empty">
                     There are no items
                 </template>
-            </b-taginput>
-        </b-field>
+            </v-taginput>
+        </v-field>
         <pre style="max-height: 400px"><b>Tags:</b>{{ tags }}</pre>
     </section>
 </template>

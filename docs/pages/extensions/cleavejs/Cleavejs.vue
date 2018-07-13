@@ -18,10 +18,10 @@
         </div>
 
         <Example :component="ExFormat" :code="ExFormatCode" vertical>
-            <b-message type="is-info">
+            <v-message type="is-info">
                 <p><strong>Cleave.js is not included in VulmaJs</strong>, you have to install it:</p>
                 <CodeView code="npm install cleave.js" expanded/>
-            </b-message>
+            </v-message>
         </Example>
     </div>
 </template>

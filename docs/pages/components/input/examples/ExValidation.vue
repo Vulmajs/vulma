@@ -1,27 +1,27 @@
 <template>
     <section>
-        <b-field>
-            <b-input placeholder="Email" type="email"></b-input>
-        </b-field>
+        <v-field>
+            <v-input placeholder="Email" type="email"></v-input>
+        </v-field>
 
-        <b-field>
-            <b-input placeholder="Number"
+        <v-field>
+            <v-input placeholder="Number"
                 type="number"
                 min="10"
                 max="20">
-            </b-input>
-        </b-field>
+            </v-input>
+        </v-field>
 
-        <b-field>
-            <b-input placeholder="URL" type="url"></b-input>
-        </b-field>
+        <v-field>
+            <v-input placeholder="URL" type="url"></v-input>
+        </v-field>
 
-        <b-field>
-            <b-input type="textarea"
+        <v-field>
+            <v-input type="textarea"
                 minlength="10"
                 maxlength="100"
                 placeholder="Maxlength automatically counts characters">
-            </b-input>
-        </b-field>
+            </v-input>
+        </v-field>
     </section>
 </template>

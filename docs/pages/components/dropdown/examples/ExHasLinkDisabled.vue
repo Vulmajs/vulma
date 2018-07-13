@@ -4,50 +4,50 @@
             <a class="navbar-item">
                 <img src="static/img/buefy-logo.png" alt="Buefy">
             </a>
-            <a class="navbar-item"><b-icon pack="fab" icon="github"></b-icon></a>
-            <a class="navbar-item"><b-icon pack="fab" icon="twitter"></b-icon></a>
+            <a class="navbar-item"><v-icon pack="fab" icon="github"></v-icon></a>
+            <a class="navbar-item"><v-icon pack="fab" icon="twitter"></v-icon></a>
         </div>
 
         <div class="navbar-menu">
             <div class="navbar-end">
-                <b-dropdown v-model="navigation" position="is-bottom-left">
+                <v-dropdown v-model="navigation" position="is-bottom-left">
                     <a class="navbar-item" slot="trigger">
                         <span>Menu</span>
-                        <b-icon icon="menu-down"></b-icon>
+                        <v-icon icon="menu-down"></v-icon>
                     </a>
 
-                    <b-dropdown-item custom>
+                    <v-dropdown-item custom>
                         Logged as <b>Rafael Beraldo</b>
-                    </b-dropdown-item>
+                    </v-dropdown-item>
                     <hr class="dropdown-divider">
-                    <b-dropdown-item has-link>
+                    <v-dropdown-item has-link>
                         <a href="https://google.com" target="_blank">
-                            <b-icon icon="link"></b-icon>
+                            <v-icon icon="link"></v-icon>
                             Google (link)
                         </a>
-                    </b-dropdown-item>
-                    <b-dropdown-item value="home">
-                        <b-icon icon="home"></b-icon>
+                    </v-dropdown-item>
+                    <v-dropdown-item value="home">
+                        <v-icon icon="home"></v-icon>
                         Home
-                    </b-dropdown-item>
-                    <b-dropdown-item value="products">
-                        <b-icon icon="cart"></b-icon>
+                    </v-dropdown-item>
+                    <v-dropdown-item value="products">
+                        <v-icon icon="cart"></v-icon>
                         Products
-                    </b-dropdown-item>
-                    <b-dropdown-item value="blog" disabled>
-                        <b-icon icon="book-open"></b-icon>
+                    </v-dropdown-item>
+                    <v-dropdown-item value="blog" disabled>
+                        <v-icon icon="book-open"></v-icon>
                         Blog
-                    </b-dropdown-item>
+                    </v-dropdown-item>
                     <hr class="dropdown-divider">
-                    <b-dropdown-item value="settings">
-                        <b-icon icon="settings"></b-icon>
+                    <v-dropdown-item value="settings">
+                        <v-icon icon="settings"></v-icon>
                         Settings
-                    </b-dropdown-item>
-                    <b-dropdown-item value="logout">
-                        <b-icon icon="logout"></b-icon>
+                    </v-dropdown-item>
+                    <v-dropdown-item value="logout">
+                        <v-icon icon="logout"></v-icon>
                         Logout
-                    </b-dropdown-item>
-                </b-dropdown>
+                    </v-dropdown-item>
+                </v-dropdown>
             </div>
         </div>
     </nav>

@@ -6,21 +6,21 @@
         </button>
         <hr>
 
-        <b-tooltip label="I'm never closing"
+        <v-tooltip label="I'm never closing"
             :active="active"
             always>
             <button class="button">
                 Always
             </button>
-        </b-tooltip>
+        </v-tooltip>
 
-        <b-tooltip label="Tooltip right"
+        <v-tooltip label="Tooltip right"
             position="is-right"
             :active="active">
             <button class="button is-dark">
                 Right
             </button>
-        </b-tooltip>
+        </v-tooltip>
     </section>
 </template>
 

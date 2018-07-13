@@ -7,7 +7,7 @@
             </button>
         </div>
 
-        <b-panel header="Title"
+        <v-panel header="Title"
             has-custom-template
             collapsible
             :open.sync="isOpen">
@@ -21,7 +21,7 @@
                 Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. <br/>
                 Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.
             </div>
-        </b-panel>
+        </v-panel>
     </section>
 </template>
 

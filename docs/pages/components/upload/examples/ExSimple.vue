@@ -1,16 +1,16 @@
 <template>
-    <b-field class="file">
-        <b-upload v-model="files">
+    <v-field class="file">
+        <v-upload v-model="files">
             <a class="button is-primary">
-                <b-icon icon="upload"></b-icon>
+                <v-icon icon="upload"></v-icon>
                 <span>Click to upload</span>
             </a>
-        </b-upload>
+        </v-upload>
         <span class="file-name"
             v-if="files && files.length">
             {{ files[0].name }}
         </span>
-    </b-field>
+    </v-field>
 </template>
 
 <script>
