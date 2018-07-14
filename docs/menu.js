@@ -9,6 +9,12 @@ export default {
             ]
         },
         {
+            category: 'Code style guide',
+            pages: [
+                { name: 'Node.Js', path: '/documentation/nodejs' }
+            ]
+        },
+        {
             category: 'Layout',
             pages: [
                 { name: 'Layout & elements', path: '/documentation/layout' }
@@ -23,15 +29,15 @@ export default {
                 {
                     category: 'Form controls',
                     pages: [
-                        { name: 'Autocomplete', path: '/documentation/autocomplete', isUpdated: true },
-                        { name: 'Checkbox', path: '/documentation/checkbox', isUpdated: true },
+                        { name: 'Autocomplete', path: '/documentation/autocomplete', isUpdated: false },
+                        { name: 'Checkbox', path: '/documentation/checkbox', isUpdated: false },
                         { name: 'Datepicker', path: '/documentation/datepicker' },
                         { name: 'Field', path: '/documentation/field' },
                         { name: 'Input', path: '/documentation/input' },
-                        { name: 'Radio', path: '/documentation/radio', isUpdated: true },
+                        { name: 'Radio', path: '/documentation/radio', isUpdated: false },
                         { name: 'Select', path: '/documentation/select' },
                         { name: 'Switch', path: '/documentation/switch' },
-                        { name: 'Taginput', path: '/documentation/taginput', isUpdated: true },
+                        { name: 'Taginput', path: '/documentation/taginput', isUpdated: false },
                         { name: 'Timepicker', path: '/documentation/timepicker' },
                         { name: 'Upload', path: '/documentation/upload' }
                     ]
@@ -45,7 +51,7 @@ export default {
                 { name: 'Snackbar', path: '/documentation/snackbar' },
                 { name: 'Table', path: '/documentation/table' },
                 { name: 'Tabs', path: '/documentation/tabs' },
-                { name: 'Tag', path: '/documentation/tag', isUpdated: true },
+                { name: 'Tag', path: '/documentation/tag', isUpdated: false },
                 { name: 'Toast', path: '/documentation/toast' },
                 { name: 'Tooltip', path: '/documentation/tooltip' }
             ]

@@ -98,7 +98,7 @@
                                 :index="index"
                             />
                             <template v-else>
-                                <BTableColumn
+                                <VTableColumn
                                     v-for="column in newColumns"
                                     v-bind="column"
                                     :key="column.field"
@@ -110,7 +110,7 @@
                                     <template v-else>
                                         {{ getValueByPath(row, column.field) }}
                                     </template>
-                                </BTableColumn>
+                                </VTableColumn>
                             </template>
                         </tr>
 

@@ -11,7 +11,7 @@ describe('VIcon', () => {
     it('is vue instance', () => {
         const wrapper = shallow(VIcon)
 
-        expect(wrapper.name()).toBe('BIcon')
+        expect(wrapper.name()).toBe('VIcon')
         expect(wrapper.isVueInstance()).toBeTruthy()
     })
 

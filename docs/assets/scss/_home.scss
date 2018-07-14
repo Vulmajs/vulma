@@ -34,7 +34,7 @@
     .npm {
         display: inline-flex;
         font-size: 1.1em;
-        color: lighten($primary, 20%);
-        background: darken($primary, 20%);
+        color: lighten($grey-light, 20%);
+        background: darken($blue, 20%);
     }
 }

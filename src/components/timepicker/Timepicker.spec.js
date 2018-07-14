@@ -3,9 +3,9 @@ import VTimepicker from '@components/timepicker/Timepicker'
 
 describe('VTimepicker', () => {
     it('is called', () => {
-        const wrapper = shallow(BTimepicker)
+        const wrapper = shallow(VTimepicker)
 
-        expect(wrapper.name()).toBe('BTimepicker')
+        expect(wrapper.name()).toBe('VTimepicker')
         expect(wrapper.isVueInstance()).toBeTruthy()
     })
 })

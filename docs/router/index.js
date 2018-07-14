@@ -36,6 +36,8 @@ const router = new Router({
                 route('constructor-options', 'installation/ConstructorOptions'),
                 // Layout
                 route('layout', 'Layout'),
+                // Code Style guide
+                route('nodejs', 'styleguide/Nodejs'),
                 // Components
                 route('icon', 'components/icon/Icon'),
                 route('dropdown', 'components/dropdown/Dropdown'),

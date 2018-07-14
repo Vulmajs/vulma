@@ -42,7 +42,7 @@
         beforeMount() {
             if (!this.$parent.$data._isTable) {
                 this.$destroy()
-                throw new Error('You should wrap bTableColumn on a bTable')
+                throw new Error('You should wrap vTableColumn on a vTable')
             }
 
             if (this.internal) return

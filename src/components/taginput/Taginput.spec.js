@@ -5,7 +5,7 @@ describe('VTaginput', () => {
     it('is called', () => {
         const wrapper = shallow(VTaginput)
 
-        expect(wrapper.name()).toBe('BTaginput')
+        expect(wrapper.name()).toBe('VTaginput')
         expect(wrapper.isVueInstance()).toBeTruthy()
     })
 })

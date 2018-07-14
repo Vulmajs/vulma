@@ -1,46 +1,30 @@
 <template>
     <nav
         class="navbar docs-navbar is-spaced has-shadow"
-        :class="{ 'is-primary is-transparent': light }">
+        :class="{ 'is-grey-lighter is-transparent': light }">
         <div class="container">
             <div class="navbar-brand">
                 <router-link
                     to="/"
                     class="navbar-item"
-                    title="Buefy: lightweight UI components for Vue.js based on Bulma"
+                    title="VulmaJs: lightweight components and design system for Vue.js"
                     active-class="">
                     <img
                         v-if="light"
-                        src="../assets/buefy-light.png"
-                        alt="Buefy">
+                        src="../assets/vulmajs-logo.png"
+                        alt="VulmaJs">
                     <img
                         v-else
-                        src="../assets/buefy.png"
+                        src="../assets/vulmajs-logo.png"
                         alt="Buefy">
                 </router-link>
 
                 <a
                     class="navbar-item has-text-dark"
-                    href="https://github.com/buefy/buefy"
+                    href="https://github.com/vulmajs/vulma"
                     target="_blank"
                     title="Github">
                     <v-icon icon="github-circle"/>
-                </a>
-
-                <a
-                    class="navbar-item has-text-twitter"
-                    href="https://twitter.com/rafaelpimpa"
-                    target="_blank"
-                    title="Twitter">
-                    <v-icon icon="twitter"/>
-                </a>
-
-                <a
-                    class="navbar-item has-text-discord"
-                    href="https://discordapp.com/invite/ZkdFJMr"
-                    target="_blank"
-                    title="Discord">
-                    <v-icon icon="discord"/>
                 </a>
 
                 <span
@@ -149,7 +133,7 @@
 
                         <div class="navbar-dropdown is-boxed">
                             <strong class="navbar-item version">
-                                <span class="has-text-primary">Buefy version</span>
+                                <span class="has-text-primary">VulmaJs version</span>
                                 <span class="has-text-grey">{{ version }}</span>
                             </strong>
                             <strong class="navbar-item version">
@@ -160,21 +144,11 @@
                             <hr class="navbar-divider">
                             <a
                                 class="navbar-item"
-                                href="https://github.com/buefy/buefy/releases"
+                                href="https://github.com/vulmajs/vulma/releases"
                                 target="_blank">
                                 Changelogs
                             </a>
                         </div>
-                    </div>
-
-                    <div class="navbar-item">
-                        <a
-                            class="button is-outlined"
-                            :class="light ? 'is-light' : 'is-twitter'"
-                            @click="tweet">
-                            <v-icon icon="twitter"/>
-                            <span>Tweet</span>
-                        </a>
                     </div>
                 </div>
             </div>
