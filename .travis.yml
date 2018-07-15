@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "8.6.0"
+  - "8.9.0"
   - "node"
 env:
   - WEBPACK_VERSION= # Current, from package.json
@@ -16,22 +16,20 @@ branches:
   except:
     - gh-pages
 stages:
-  - lint
   - test
-  - build
+  - coverage
+  - lint
 jobs:
   include:
-    - stage: lint
-      script:
-        # Run linter
-        - npm run lint
     - stage: test
       script:
         # Run tests
         - npm run test
-    - stage: build
+    - stage: coverage
       script:
-        # Build all
-        - npm run build:docs
-        - npm run build:system
-        - npm run build:app
+        # Run coverage
+        - ./node_modules/.bin/codecov
+    - stage: lint
+      script:
+        # Run linter
+        - npm run lint

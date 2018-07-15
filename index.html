@@ -1,12 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>VulmaJs Design System</title>
-  </head>
-  <body>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="VulmaJs is a lightweight library of responsive UI components for Vue.js based on Bulma framework and design system.">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/img/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/img/icons/favicon-16x16.png">
+    <!--[if IE]><link rel="shortcut icon" href="/static/img/icons/favicon.ico"><![endif]-->
+    <!-- Add to home screen for Android and modern mobile browsers -->
+    <link rel="manifest" href="/static/manifest.json">
+    <meta name="theme-color" content="#7957D5">
+
+    <!-- Add to home screen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="vulmajs">
+    <link rel="apple-touch-icon" href="/static/img/icons/apple-touch-icon-152x152.png">
+    <!-- Add to home screen for Windows -->
+    <meta name="msapplication-TileImage" content="/static/img/icons/apple-touch-icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <% for (var chunk of webpack.chunks) {
+        for (var file of chunk.files) {
+            if (file.match(/\.(js|css)$/)) { %>
+    <link rel="<%= chunk.initial?'preload':'prefetch' %>" href="<%= htmlWebpackPlugin.files.publicPath + file %>" as="<%= file.match(/\.css$/)?'style':'script' %>">
+    <% }}} %>
+
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://vulmajs.com">
+    <meta property="og:title" content="VulmaJs: lightweight UI components for Vue.js based on Bulma">
+    <meta property="og:site_name" content="VulmaJs">
+    <meta property="og:description" content="VulmaJs is a lightweight library of responsive UI components for Vue.js based on Bulma framework and design system.">
+    <meta property="og:image" content="https://vulmajs.com/static/img/vulmajs-banner.png">
+    <meta property="og:image:type" content="image/jpeg">
+
+    <title>VulmaJs: lightweight UI components for Vue.js based on Bulma</title>
+</head>
+
+<body>
+    <noscript>
+        This website needs JavaScript enabled to work correctly.
+    </noscript>
     <div id="app"></div>
+    <!-- Todo: only include in production -->
+    <%= htmlWebpackPlugin.options.serviceWorkerLoader %>
     <!-- built files will be auto injected -->
-  </body>
+</body>
+
 </html>
