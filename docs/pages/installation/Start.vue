@@ -15,7 +15,7 @@
             </div>
             <div class="media-content">
                 <h3 class="subtitle">Use <b>NPM</b> <em>(recommended)</em>:</h3>
-                <CodeView code="npm install buefy" lang="bash" expanded/>
+                <CodeView code="npm install vulmajs" lang="bash" expanded/>
             </div>
         </div>
 

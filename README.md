@@ -1,17 +1,15 @@
 <p align="center">
-    <a href="https://buefy.github.io">
-        <img src="https://github.com/buefy/buefy/blob/dev/static/img/buefy-banner.png" />
+    <a href="https://vulmajs.com">
+        <img src="https://github.com/vulmajs/vulmajs/blob/dev/static/img/vulmajs-logo.png" />
     </a>
-    <a href="https://www.npmjs.com/package/buefy"><img src="https://img.shields.io/npm/v/buefy.svg" /></a>
-    <a href="https://www.npmjs.com/package/buefy"><img src="https://img.shields.io/npm/dt/buefy.svg" /></a>
-    <a href="https://circleci.com/gh/buefy/buefy"><img src="https://img.shields.io/circleci/project/github/buefy/buefy.svg?style=flat-square" /></a>
-    <a href="https://codecov.io/gh/buefy/buefy"><img src="https://img.shields.io/codecov/c/github/buefy/buefy.svg?style=flat-square" /></a>
-    <a href="https://www.npmjs.com/package/buefy"><img src="https://img.shields.io/npm/l/buefy.svg" /></a>
-    <a href="https://discordapp.com/invite/ZkdFJMr"><img src="https://img.shields.io/badge/chat-on%20discord-7289DA.svg" /></a>
-    <a href="http://buefy.github.io"><img src="https://img.shields.io/badge/code_style-buefy-7957d5.svg?style=flat-square" /></a>
+    <a href="https://www.npmjs.com/package/vulmajs"><img src="https://img.shields.io/npm/v/vulmajs.svg" /></a>
+    <a href="https://www.npmjs.com/package/vulmajs"><img src="https://img.shields.io/npm/dt/vulmajs.svg" /></a>
+    <a href="https://circleci.com/gh/vulmajs/vulmajs"><img src="https://img.shields.io/circleci/project/github/vulmajs/vulma.svg?style=flat-square" /></a>
+    <a href="https://codecov.io/gh/vulmajs/vulmajs"><img src="https://img.shields.io/codecov/c/github/vulmajs/vulma.svg?style=flat-square" /></a>
+    <a href="https://www.npmjs.com/package/vulmajs"><img src="https://img.shields.io/npm/l/vulmajs.svg" /></a>
 </p>
 
-> Buefy is a lightweight library of responsive UI components for [Vue.js](https://vuejs.org/) based on [Bulma](http://bulma.io/) framework and design.
+> VulmaJs is a lightweight UI library of responsive components for [Vue.js](https://vuejs.org/) based on [Bulma](http://bulma.io/) framework and design system, with code style guides.
 
 ## Features
 
@@ -27,7 +25,7 @@
 
 The documentation is in the docs directory, it serves as the demo as well.
 
-Browse [online documentation here](https://buefy.github.io).
+Browse [online documentation here](https://vulmajs.com).
 
 ## Quick start
 
@@ -36,23 +34,27 @@ You need [Vue.js](https://vuejs.org/) **version 2.5+**.
 ### 1 Install via npm
 
 ```bash
-npm install buefy
+npm install vulmajs
+```
+or 
+```bash
+yarn add vulmajs
 ```
 
-### 2 Import and use Buefy
+### 2 Import and use Vulmajs
 
 ```javascript
 import Vue from 'vue';
-import Buefy from 'buefy';
-import 'buefy/lib/buefy.css';
+import Vulmajs from 'vulmajs';
+import 'vulmajs/lib/vulmajs.css';
 
-Vue.use(Buefy);
+Vue.use(Vulmajs);
 
 // OR
 
-Vue.component(Buefy.Checkbox.name, Buefy.Checkbox);
-Vue.component(Buefy.Table.name, Buefy.Table);
-Vue.component(Buefy.Switch.name, Buefy.Switch);
+Vue.component(Vulmajs.Checkbox.name, Vulmajs.Checkbox);
+Vue.component(Vulmajs.Table.name, Vulmajs.Table);
+Vue.component(Vulmajs.Switch.name, Vulmajs.Switch);
 ```
 
 ### 3 Include Material Design Icons
@@ -61,21 +63,21 @@ Vue.component(Buefy.Switch.name, Buefy.Switch);
 <link rel="stylesheet" href="//cdn.materialdesignicons.com/2.0.46/css/materialdesignicons.min.css">
 ```
 
-If you want to customize the icons or the theme, refer to the [customization section on the documentation](https://buefy.github.io/#/documentation/customization).
+If you want to customize the icons or the theme, refer to the [customization section on the documentation](https://vulmajs.com/#/documentation/customization).
 
 ### Alternatively, you can use a CDN or even download
 
 ```html
-<!-- Buefy CSS -->
-<link rel="stylesheet" href="https://unpkg.com/buefy/lib/buefy.min.css">
+<!-- VulmaJs CSS -->
+<link rel="stylesheet" href="https://unpkg.com/vulmajs/lib/vulmajs.min.css">
 
-<!-- Buefy JavaScript -->
-<script src="https://unpkg.com/buefy"></script>
+<!-- VulmaJs JavaScript -->
+<script src="https://unpkg.com/vulmajs"></script>
 ```
 
 ```javascript
 // Global variable
-Vue.use(Buefy.default)
+Vue.use(Vulmajs.default)
 ```
 
 ## Browser support
@@ -91,19 +93,17 @@ While it's still in beta, version will follow **v0.Y.Z**, where:
 
 ## Current roadmap
 
-https://github.com/buefy/buefy/issues/458
+https://github.com/vulmajs/vulma/
 
 ## Stay in touch
 
-* [Twitter](https://twitter.com/rafaelpimpa)
 
-## Collaborators
+## Core Team
 
-* Walter Tommasi — [@jtommy](https://github.com/jtommy)
-* Antério Vieira — [@anteriovieira](https://twitter.com/anteriovieira)
+* Ronni H. Baslund — [@ronnibaslund](https://github.com/ronnibaslund)
 
 ## License
 
-Code released under [MIT]((https://github.com/buefy/buefy/blob/master/LICENSE)) license.
+Code released under [MIT]((https://github.com/vulmajs/vulma/blob/master/LICENSE)) license.
 
-Copyright (c) 2018, Rafael Beraldo.
+Copyright (c) 2018, Ronni H. Baslund.

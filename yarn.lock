@@ -2878,12 +2878,15 @@ escope@^3.6.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-config-buefy@0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-buefy/-/eslint-config-buefy-0.0.1.tgz#d46b18f52bb33ebe119b01bfb33866757d0b08e4"
+eslint-config-standard@^10.2.1:
+  version "10.2.1"
+  resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-10.2.1.tgz#c061e4d066f379dc17cd562c64e819b4dd454591"
+
+eslint-config-vulmajs@0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/eslint-config-vulmajs/-/eslint-config-vulmajs-0.0.3.tgz#26ee8fa2897fcb5f4e97f90533ef014e102b1f4a"
   dependencies:
     babel-eslint "^7.1.1"
-    eslint "^3.19.0"
     eslint-config-standard "^10.2.1"
     eslint-friendly-formatter "^2.0.7"
     eslint-loader "^1.7.1"
@@ -2893,10 +2896,6 @@ eslint-config-buefy@0.0.1:
     eslint-plugin-promise "^3.6.0"
     eslint-plugin-standard "^3.0.1"
     eslint-plugin-vue "^4.2.0"
-
-eslint-config-standard@^10.2.1:
-  version "10.2.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-10.2.1.tgz#c061e4d066f379dc17cd562c64e819b4dd454591"
 
 eslint-friendly-formatter@^2.0.7:
   version "2.0.7"
@@ -2986,7 +2985,7 @@ eslint-visitor-keys@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
 
-eslint@3.19.0, eslint@^3.19.0:
+eslint@3.19.0:
   version "3.19.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-3.19.0.tgz#c8fc6201c7f40dd08941b87c085767386a679acc"
   dependencies:

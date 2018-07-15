@@ -2,7 +2,7 @@
     <nav class="navbar">
         <div class="navbar-brand">
             <a class="navbar-item">
-                <img src="static/img/buefy-logo.png" alt="Buefy">
+                <img src="static/img/vulmajs-logo.png" alt="Vulmajs">
             </a>
             <a class="navbar-item"><v-icon pack="fab" icon="github"></v-icon></a>
             <a class="navbar-item"><v-icon pack="fab" icon="twitter"></v-icon></a>

@@ -5,7 +5,7 @@
             <div class="hero-body">
                 <div class="container has-text-centered">
                     <div class="logo-rounded home-hero">
-                        <img src="../assets/vulmajs-logo.png" alt="Buefy">
+                        <img src="../assets/vulmajs-logo.png" alt="Vulmajs">
                     </div>
                     <h2 class="subtitle home-hero">
                         <strong>Lightweight</strong> UI components and design system for <strong><a href="https://vuejs.org/" target="_blank">Vue.js</a></strong>

@@ -13,7 +13,7 @@
             <v-select placeholder="Select a topic">
                 <option value="1">Bulma</option>
                 <option value="2">Vue.js</option>
-                <option value="3">Buefy</option>
+                <option value="3">VulmaJs</option>
             </v-select>
         </v-field>
 

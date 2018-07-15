@@ -49,7 +49,7 @@
                 this.$modal.open(props)
 
                 // From outside Vue instance
-                import { ModalProgrammatic } from 'buefy'
+                import { ModalProgrammatic } from 'vulmajs'
                 ModalProgrammatic.open(props)`
             }
         }

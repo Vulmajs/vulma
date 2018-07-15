@@ -3,7 +3,7 @@
         <v-field label="Limited to 10 characters">
             <v-taginput
                 maxlength="10"
-                :value="['Bulma', 'Vue', 'Buefy']">
+                :value="['Bulma', 'Vue', 'Vulmajs']">
             </v-taginput>
         </v-field>
 
