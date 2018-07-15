@@ -13,6 +13,8 @@ import ApiView from './components/ApiView'
 import CodeView from './components/CodeView'
 import Example from './components/Example'
 
+import VueHighlightJS from 'vue-highlightjs'
+
 Vue.config.productionTip = false
 
 global.Promise = Bluebird
@@ -26,6 +28,9 @@ Vue.use(Vulmajs, {
     // defaultToastDuration: 999999
 })
 
+// Tell Vue.js to use vue-highlightjs
+Vue.use(VueHighlightJS)
+
 Vue.use(VueProgressBar, {
     color: '#7957d5',
     failedColor: '#ff3860',
@@ -35,7 +40,7 @@ Vue.use(VueProgressBar, {
     }
 })
 Vue.use(VueAnalytics, {
-    id: '111111',
+    id: 'UA-122380433-1',
     router
 })
 Vue.component('ApiView', ApiView)
