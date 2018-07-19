@@ -17,7 +17,12 @@ export default {
         {
             category: 'Layout',
             pages: [
-                { name: 'Layout & elements', path: '/documentation/layout' }
+                { name: 'Layout & elements', path: '/documentation/layout' },
+                { category: 'Templates',
+                    pages: [
+                        { name: 'Login & Signup', path: '/documentation/login', isNew: true }
+                    ]
+                }
             ]
         },
         {
