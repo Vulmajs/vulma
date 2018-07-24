@@ -7,18 +7,18 @@
         </button>
 
         <v-tabs>
-            <v-tav-item label="Table">
+            <v-tab-item label="Table">
                 <v-table
                     :data="data"
                     :columns="columns"
                     :selected.sync="selected"
                     focusable>
                 </v-table>
-            </v-tav-item>
+            </v-tab-item>
 
-            <v-tav-item label="Selected">
+            <v-tab-item label="Selected">
                 <pre>{{ selected }}</pre>
-            </v-tav-item>
+            </v-tab-item>
         </v-tabs>
     </section>
 </template>
