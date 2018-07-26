@@ -49,7 +49,7 @@ export default {
                 { name: 'Notification', path: '/documentation/notification' },
                 { name: 'Pagination', path: '/documentation/pagination' },
                 { name: 'Snackbar', path: '/documentation/snackbar' },
-                { name: 'Table', path: '/documentation/table' },
+                { name: 'Table', path: '/documentation/table', isUpdated: true },
                 { name: 'Tabs', path: '/documentation/tabs' },
                 { name: 'Tag', path: '/documentation/tag', isUpdated: false },
                 { name: 'Toast', path: '/documentation/toast' },

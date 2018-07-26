@@ -1,5 +1,8 @@
 <template>
-  <v-table :data="data" :columns="columns" :draggable="true" @dragstart="dragstart"></v-table>
+  <div>
+    <v-table :data="data" :columns="columns" :draggable="true" @dragstart="dragstart"></v-table>
+    <pre>{{ dragedItem }}</pre>
+  </div> 
 </template>
 
 <script>
@@ -37,12 +40,13 @@
                       field: 'gender',
                       label: 'Gender',
                   }
-              ]
+              ],
+              dragedItem: ''
           }
       },
       methods: {
         dragstart (row) {
-          alert('id: ' + row.id)
+          this.dragedItem = JSON.stringify(row, null, 2)
         }
       }
   }

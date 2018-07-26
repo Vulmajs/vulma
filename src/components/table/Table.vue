@@ -257,7 +257,10 @@
                 type: [Number, String],
                 default: 0
             },
-            draggable: Boolean
+            draggable: {
+                type: Boolean,
+                defualt: false
+            }
         },
         data() {
             return {
