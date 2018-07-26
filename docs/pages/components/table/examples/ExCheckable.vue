@@ -7,7 +7,7 @@
         </button>
 
         <v-tabs>
-            <v-tav-item label="Table">
+            <v-tab-item label="Table">
                 <v-table
                     :data="data"
                     :columns="columns"
@@ -19,11 +19,11 @@
                         <b>Total checked</b>: {{ checkedRows.length }}
                     </template>
                 </v-table>
-            </v-tav-item>
+            </v-tab-item>
 
-            <v-tav-item label="Checked rows">
+            <v-tab-item label="Checked rows">
                 <pre>{{ checkedRows }}</pre>
-            </v-tav-item>
+            </v-tab-item>
         </v-tabs>
     </section>
 </template>
