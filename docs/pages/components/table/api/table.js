@@ -197,6 +197,13 @@ export default [
                 type: 'Function (row: Object)',
                 values: '—',
                 default: 'true'
+            },
+            {
+                name: '<code>draggable</code>',
+                description: 'Used to allow rows to be draggable',
+                type: 'Boolean',
+                values: '—',
+                default: 'false'
             }
 
         ],
@@ -277,6 +284,11 @@ export default [
                 name: '<code>details-close</code>',
                 description: 'Triggers when details is closed',
                 parameters: '<code>row: Object</code>'
+            },
+            {
+                name: '<code> dragstart </code>',
+                description: 'Triggers when starting to drag a row',
+                parameters: '<code> row: Object </code>'
             }
         ],
         methods: [

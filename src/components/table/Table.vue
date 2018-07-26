@@ -67,7 +67,9 @@
                                 'is-checked': isRowChecked(row)
                             }]"
                             @click="selectRow(row)"
-                            @dblclick="$emit('dblclick', row)">
+                            @dblclick="$emit('dblclick', row)"
+                            :draggable="draggable"
+                            @dragstart="$emit('dragstart', row)">
 
                             <td
                                 v-if="detailed"
@@ -254,6 +256,10 @@
             total: {
                 type: [Number, String],
                 default: 0
+            },
+            draggable: {
+                type: Boolean,
+                defualt: false
             }
         },
         data() {

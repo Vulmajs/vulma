@@ -69,6 +69,13 @@
             <p><small>API from <a href="https://www.themoviedb.org" target="_blank">TMDb</a>.</small></p>
         </Example>
 
+        <Example :component="ExDraggableRows" :code="ExDraggableRowsCode" title="Draggable rows">
+            <p>
+                Use <code>draggable</code> prop to allow rows to be draggable and manage 
+                it with <code>dragstart</code> event
+            </p>
+        </Example>
+
         <ApiView :data="api"/>
     </div>
 </template>
@@ -109,6 +116,9 @@
     import ExAsyncData from './examples/ExAsyncData'
     import ExAsyncDataCode from '!!raw-loader!./examples/ExAsyncData'
 
+    import ExDraggableRows from './examples/ExDraggableRows'
+    import ExDraggableRowsCode from '!!raw-loader!./examples/ExDraggableRows'
+
     export default {
         data() {
             return {
@@ -124,6 +134,7 @@
                 ExToggleColumns,
                 ExFooter,
                 ExAsyncData,
+                ExDraggableRows,
                 ExSimpleCode,
                 ExSandboxCode,
                 ExSelectionCode,
@@ -134,7 +145,8 @@
                 ExCustomHeadersCode,
                 ExToggleColumnsCode,
                 ExFooterCode,
-                ExAsyncDataCode
+                ExAsyncDataCode,
+                ExDraggableRowsCode
             }
         }
     }
