@@ -25,6 +25,7 @@ import Timepicker from './components/timepicker'
 import Toast from './components/toast'
 import Tooltip from './components/tooltip'
 import Upload from './components/upload'
+import Login from './components/login'
 
 import config, { setOptions } from './utils/config'
 
@@ -58,7 +59,8 @@ const components = {
     Taginput,
     Timepicker,
     Tooltip,
-    Upload
+    Upload,
+    Login
 }
 
 components.install = (Vue, options = {}) => {

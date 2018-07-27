@@ -37,7 +37,7 @@ const router = new Router({
                 // Layout
                 route('layout', 'Layout'),
                 // Templates
-                route('login', 'templates/login/Login'),
+                route('templates/login', 'templates/login/Login'),
                 // Code Style guide
                 route('nodejs', 'styleguide/Nodejs'),
                 // Components
@@ -67,7 +67,8 @@ const router = new Router({
                 route('taginput', 'components/taginput/Taginput'),
                 route('upload', 'components/upload/Upload'),
                 route('table', 'components/table/Table'),
-                route('pagination', 'components/pagination/Pagination')
+                route('pagination', 'components/pagination/Pagination'),
+                route('login', 'components/login/Login')
             ]
         },
         {

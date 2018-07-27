@@ -1,5 +1,4 @@
 <template>
-
     <div class="columns is-vcentered">
       <div class="login column is-4 ">
         <section class="section">
@@ -7,28 +6,7 @@
               <img class="login-logo" src="../../../../assets/vulmajs-logo.png">
           </div>
 
-          <v-field label="Username">
-            <v-input value="johnsilver" placeholder="Username"></v-input>
-          </v-field>
-
-          <v-field label="Password">
-            <v-input type="password" password-reveal placeholder="Password"></v-input>
-          </v-field>
-
-          <div class="has-text-centered">
-            <a class="login-button button is-vcentered is-primary">Login</a>
-          </div>
-
-          <div class="has-text-centered">
-            <v-tooltip label="Forgotten your password click here?" position="is-bottom" type="is-light" animated>
-              <button class="button is-white is-small is-text" href="signup.html">Forgot password</button>
-            </v-tooltip>
-
-            <v-tooltip label="Don't have an account?" position="is-bottom" type="is-light" animated>
-              <button class="button is-white is-small is-text" href="signup.html">Sign up now!</button>
-            </v-tooltip>
-          </div>
-
+          <v-login v-model="user"></v-login>
 
         </section>
       </div>
@@ -41,8 +19,7 @@
 export default {
   data() {
     return {
-      username: '',
-      password: ''
+      user: {}
     };
   },
   methods: {}
