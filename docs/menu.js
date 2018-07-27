@@ -17,7 +17,12 @@ export default {
         {
             category: 'Layout',
             pages: [
-                { name: 'Layout & elements', path: '/documentation/layout' }
+                { name: 'Layout & elements', path: '/documentation/layout' },
+                { category: 'Templates',
+                    pages: [
+                        { name: 'Login & Signup', path: '/documentation/templates/login', isNew: true }
+                    ]
+                }
             ]
         },
         {
@@ -53,7 +58,8 @@ export default {
                 { name: 'Tabs', path: '/documentation/tabs' },
                 { name: 'Tag', path: '/documentation/tag', isUpdated: false },
                 { name: 'Toast', path: '/documentation/toast' },
-                { name: 'Tooltip', path: '/documentation/tooltip' }
+                { name: 'Tooltip', path: '/documentation/tooltip' },
+                { name: 'login', path: '/documentation/login', isNew: true }
             ]
         }
     ],
