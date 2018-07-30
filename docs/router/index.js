@@ -68,7 +68,8 @@ const router = new Router({
                 route('upload', 'components/upload/Upload'),
                 route('table', 'components/table/Table'),
                 route('pagination', 'components/pagination/Pagination'),
-                route('login', 'components/login/Login')
+                route('login', 'components/login/Login'),
+                route('rating', 'components/rating/Rating')
             ]
         },
         {

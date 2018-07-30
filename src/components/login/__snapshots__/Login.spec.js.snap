@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VLogin render correctly 1`] = `
+<div class="control is-clearfix">
+    <!---->
+    <!---->
+    <!---->
+    <div class="has-text-centered">
+        <a class="login-button button is-vcentered is-primary">Login</a>
+    </div>
+    <div class="has-text-centered">
+        <!---->
+        <!---->
+    </div>
+</div>
+`;

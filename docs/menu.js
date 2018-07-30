@@ -49,17 +49,18 @@ export default {
                 },
                 { name: 'Icon', path: '/documentation/icon' },
                 { name: 'Loading', path: '/documentation/loading' },
+                { name: 'Login', path: '/documentation/login', isNew: true },
                 { name: 'Message', path: '/documentation/message' },
                 { name: 'Modal', path: '/documentation/modal' },
                 { name: 'Notification', path: '/documentation/notification' },
                 { name: 'Pagination', path: '/documentation/pagination' },
+                { name: 'Rating', path: '/documentation/rating' },
                 { name: 'Snackbar', path: '/documentation/snackbar' },
                 { name: 'Table', path: '/documentation/table', isUpdated: true },
                 { name: 'Tabs', path: '/documentation/tabs' },
                 { name: 'Tag', path: '/documentation/tag', isUpdated: false },
                 { name: 'Toast', path: '/documentation/toast' },
-                { name: 'Tooltip', path: '/documentation/tooltip' },
-                { name: 'login', path: '/documentation/login', isNew: true }
+                { name: 'Tooltip', path: '/documentation/tooltip' }
             ]
         }
     ],

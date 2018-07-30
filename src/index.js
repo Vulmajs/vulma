@@ -26,6 +26,7 @@ import Toast from './components/toast'
 import Tooltip from './components/tooltip'
 import Upload from './components/upload'
 import Login from './components/login'
+import Rating from './components/rating'
 
 import config, { setOptions } from './utils/config'
 
@@ -60,7 +61,8 @@ const components = {
     Timepicker,
     Tooltip,
     Upload,
-    Login
+    Login,
+    Rating
 }
 
 components.install = (Vue, options = {}) => {

@@ -34,5 +34,7 @@ export default {
     'table': { title: 'Table' },
     'pagination': { title: 'Pagination' },
     'cleavejs': { title: 'Cleavejs' },
-    'sortablejs': { title: 'Sortablejs' }
+    'sortablejs': { title: 'Sortablejs' },
+    'login': { title: 'Login' },
+    'rating': { title: 'Rating' }
 }
