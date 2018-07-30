@@ -54,7 +54,7 @@ export default {
                 { name: 'Modal', path: '/documentation/modal' },
                 { name: 'Notification', path: '/documentation/notification' },
                 { name: 'Pagination', path: '/documentation/pagination' },
-                { name: 'Rating', path: '/documentation/rating' },
+                { name: 'Rating', path: '/documentation/rating', isNew: true },
                 { name: 'Snackbar', path: '/documentation/snackbar' },
                 { name: 'Table', path: '/documentation/table', isUpdated: true },
                 { name: 'Tabs', path: '/documentation/tabs' },
