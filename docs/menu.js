@@ -17,7 +17,12 @@ export default {
         {
             category: 'Layout',
             pages: [
-                { name: 'Layout & elements', path: '/documentation/layout' }
+                { name: 'Layout & elements', path: '/documentation/layout' },
+                { category: 'Templates',
+                    pages: [
+                        { name: 'Login & Signup', path: '/documentation/templates/login', isNew: true }
+                    ]
+                }
             ]
         },
         {
@@ -44,10 +49,12 @@ export default {
                 },
                 { name: 'Icon', path: '/documentation/icon' },
                 { name: 'Loading', path: '/documentation/loading' },
+                { name: 'Login', path: '/documentation/login', isNew: true },
                 { name: 'Message', path: '/documentation/message' },
                 { name: 'Modal', path: '/documentation/modal' },
                 { name: 'Notification', path: '/documentation/notification' },
                 { name: 'Pagination', path: '/documentation/pagination' },
+                { name: 'Rating', path: '/documentation/rating' },
                 { name: 'Snackbar', path: '/documentation/snackbar' },
                 { name: 'Table', path: '/documentation/table', isUpdated: true },
                 { name: 'Tabs', path: '/documentation/tabs' },

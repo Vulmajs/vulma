@@ -3,6 +3,7 @@ export default {
     'start': { title: 'Start' },
     'customization': { title: 'Customization' },
     'constructor-options': { title: 'Constructor options' },
+    'templates/login': { title: 'Login & Signup template' },
     'nodejs': { title: 'Node.js & Javascript code style guide' },
     'layout': { title: 'Layout & elements' },
     'icon': { title: 'Icon' },
@@ -33,5 +34,7 @@ export default {
     'table': { title: 'Table' },
     'pagination': { title: 'Pagination' },
     'cleavejs': { title: 'Cleavejs' },
-    'sortablejs': { title: 'Sortablejs' }
+    'sortablejs': { title: 'Sortablejs' },
+    'login': { title: 'Login' },
+    'rating': { title: 'Rating' }
 }
