@@ -69,7 +69,7 @@
                             @click="selectRow(row)"
                             @dblclick="$emit('dblclick', row)"
                             :draggable="draggable"
-                            @dragstart="$emit('dragstart', row)">
+                            @dragstart="handleDragStart($event, row)">
 
                             <td
                                 v-if="detailed"
@@ -434,6 +434,9 @@
             }
         },
         methods: {
+            handleDragStart(event, row) {
+                this.$emit('dragstart', {dragEvent: event, row: row})
+            },
             /**
              * Sort an array by key without mutating original data.
              * Call the user sort function if it was passed.

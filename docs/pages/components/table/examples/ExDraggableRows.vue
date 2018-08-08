@@ -45,8 +45,8 @@
           }
       },
       methods: {
-        dragstart (row) {
-          this.dragedItem = JSON.stringify(row, null, 2)
+        async dragstart (payload) {
+            this.dragedItem = JSON.stringify(payload.row, null, 2)
         }
       }
   }
