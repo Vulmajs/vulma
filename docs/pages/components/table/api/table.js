@@ -288,7 +288,7 @@ export default [
             {
                 name: '<code> dragstart </code>',
                 description: 'Triggers when starting to drag a row',
-                parameters: '<code> row: Object </code>'
+                parameters: '<code> row: Object </code>, <code> dragEvent: DragEvent </code>'
             }
         ],
         methods: [
