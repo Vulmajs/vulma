@@ -1,7 +1,9 @@
 <template>
   <div>
-    <v-table :data="data" :columns="columns" :draggable="true" @dragstart="dragstart"></v-table>
-    <pre>{{ dragedItem }}</pre>
+    <v-table :data="data" :columns="columns" :draggable="true" @dragstart="dragstart" @drop="drop" @dragover="dragover"></v-table>
+    <pre>Dragging row: <br />{{ draggingRow }}</pre>
+    <pre>Dragging over row: <br />{{ draggingOverRow }}</pre>
+    <pre>Dropped on: <br />{{ droppedOnRow }}</pre>
   </div> 
 </template>
 
@@ -41,12 +43,21 @@
                       label: 'Gender',
                   }
               ],
-              dragedItem: ''
+              draggingRow: '',
+              draggingOverRow: '',
+              droppedOnRow: ''
           }
       },
       methods: {
         async dragstart (payload) {
-            this.dragedItem = JSON.stringify(payload.row, null, 2)
+          this.draggingRow = JSON.stringify(payload.row, null, 2)
+        },
+        async dragover(payload) {
+          payload.event.preventDefault();
+          this.draggingOverRow = JSON.stringify(payload.row, null, 2) 
+        },
+        async drop(payload) {
+          this.droppedOnRow = JSON.stringify(payload.row, null, 2)
         }
       }
   }

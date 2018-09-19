@@ -71,8 +71,8 @@
 
         <Example :component="ExDraggableRows" :code="ExDraggableRowsCode" title="Draggable rows">
             <p>
-                Use <code>draggable</code> prop to allow rows to be draggable and manage 
-                it with <code>dragstart</code> event
+                Use <code>draggable</code> prop to allow rows to be draggable. Manage dragging using <code>dragstart</code>, 
+                <code>dragover</code> and <code>drop</code> events
             </p>
         </Example>
 

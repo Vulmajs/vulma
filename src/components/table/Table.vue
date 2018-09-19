@@ -69,7 +69,9 @@
                             @click="selectRow(row)"
                             @dblclick="$emit('dblclick', row)"
                             :draggable="draggable"
-                            @dragstart="handleDragStart($event, row)">
+                            @dragstart="handleDragStart($event, row, index)"
+                            @drop="handleDrop($event, row, index)"
+                            @dragover="handleDragOver($event, row, index)">
 
                             <td
                                 v-if="detailed"
@@ -434,8 +436,14 @@
             }
         },
         methods: {
-            handleDragStart(event, row) {
-                this.$emit('dragstart', {dragEvent: event, row: row})
+            handleDragStart(event, row, index) {
+                this.$emit('dragstart', {event, row, index})
+            },
+            handleDrop(event, row, index) {
+                this.$emit('drop', {event, row, index})
+            },
+            handleDragOver(event, row, index) {
+                this.$emit('dragover', {event, row, index})
             },
             /**
              * Sort an array by key without mutating original data.
