@@ -288,7 +288,17 @@ export default [
             {
                 name: '<code> dragstart </code>',
                 description: 'Triggers when starting to drag a row',
-                parameters: '<code> row: Object </code>, <code> dragEvent: DragEvent </code>'
+                parameters: '<code> row: Object </code>, <code> dragEvent: Event </code>, <code> index: Number </code>'
+            },
+            {
+                name: '<code> drop </code>',
+                description: 'Triggers when dropping on a row',
+                parameters: '<code> row: Object </code>, <code> drop: Event </code>, <code> index: Number </code>'
+            },
+            {
+                name: '<code> dragover </code>',
+                description: 'Triggers when dragging over a row',
+                parameters: '<code> row: Object </code>, <code> dragover: Event </code>, <code> index: Number </code>'
             }
         ],
         methods: [
