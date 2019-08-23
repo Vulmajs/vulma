@@ -4,7 +4,7 @@
             <button class="button" @click="activeTab = 1">Set Music</button>
         </div>
         <div class="block">
-            <b-switch v-model="showBooks"> Show Books item </b-switch>
+            <v-switch v-model="showBooks"> Show Books item </v-switch>
         </div>
         <v-tabs v-model="activeTab">
             <v-tab-item label="Pictures">
