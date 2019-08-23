@@ -29,7 +29,7 @@
                             v-if="column.visible || column.visible === undefined"
                             :key="index"
                             :class="{
-                                'is-current-sort': currentSortColumn === column,
+                                'is-current-sort': currentSortColumn === column && !sortMultiple,
                                 'is-sortable': column.sortable
                             }"
                             :style="{ width: column.width + 'px' }"
@@ -48,7 +48,24 @@
                                 />
                                 <template v-else>{{ column.label }}</template>
 
+                                <template
+                                    v-if="backendSorting &&
+                                        sortMultiple &&
+                                        sortMultipleData.find(i =>
+                                    i.field === column.field)">
+                                    <v-icon
+                                        icon="arrow-up"
+                                        both
+                                        size="is-small"
+                                        :class="{ 'is-desc': isDesc(column)}"
+                                    />
+                                    {{ sortMultipleData.findIndex(i =>
+                                    i.field === column.field) + 1 }}
+                                </template>
+
                                 <v-icon
+                                    v-else-if="!sortMultiple"
+
                                     v-show="currentSortColumn === column"
                                     icon="arrow-up"
                                     both
@@ -238,6 +255,14 @@
             paginationSimple: Boolean,
             paginationSize: String,
             backendSorting: Boolean,
+            sortMultiple: {
+                type: Boolean,
+                default: false
+            },
+            sortMultipleData: {
+                type: Array,
+                default: () => []
+            },
             rowClass: {
                 type: Function,
                 default: () => ''
@@ -436,6 +461,11 @@
             }
         },
         methods: {
+            isDesc(column) {
+                let foundSortData = this.sortMultipleData.length > 0
+                ? this.sortMultipleData.find((i) => i.field === column.field) : false
+                return foundSortData ? foundSortData.order === 'desc' : false
+            },
             handleDragStart(event, row, index) {
                 this.$emit('dragstart', {event, row, index})
             },

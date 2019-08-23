@@ -69,6 +69,11 @@
             <p><small>API from <a href="https://www.themoviedb.org" target="_blank">TMDb</a>.</small></p>
         </Example>
 
+        <Example :component="ExSortMultiple" :code="ExSortMultipleCode" title="Sorting multiple">
+            <p>To sort on additional columns, use <code>sort-multiple</code>. Will only work if <code>backend-sorting</code> is enabled</p>
+            <p>Use <code>sort-multiple-data</code> prop with your custom sorting priority</p>
+        </Example>
+
         <Example :component="ExDraggableRows" :code="ExDraggableRowsCode" title="Draggable rows">
             <p>
                 Use <code>draggable</code> prop to allow rows to be draggable. Manage dragging using <code>dragstart</code>, 
@@ -97,6 +102,9 @@
 
     import ExPaginationSort from './examples/ExPaginationSort'
     import ExPaginationSortCode from '!!raw-loader!./examples/ExPaginationSort'
+    
+    import ExSortMultiple from './examples/ExSortMultiple'
+    import ExSortMultipleCode from '!!raw-loader!./examples/ExSortMultiple'
 
     import ExDetailedRow from './examples/ExDetailedRow'
     import ExDetailedRowCode from '!!raw-loader!./examples/ExDetailedRow'
@@ -130,11 +138,13 @@
                 ExPaginationSort,
                 ExDetailedRow,
                 ExRowStatus,
+                ExSortMultiple,
                 ExCustomHeaders,
                 ExToggleColumns,
                 ExFooter,
                 ExAsyncData,
                 ExDraggableRows,
+                ExSortMultipleCode,
                 ExSimpleCode,
                 ExSandboxCode,
                 ExSelectionCode,
