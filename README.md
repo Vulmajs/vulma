@@ -1,3 +1,5 @@
+# THIS SYSTEM IS NO LONGER MAINTAINED
+
 <p align="center">
     <a href="https://vulmajs.com">
         <img src="https://github.com/vulmajs/vulmajs/blob/dev/static/img/vulmajs-logo.png" />
@@ -96,11 +98,6 @@ While it's still in beta, version will follow **v0.Y.Z**, where:
 https://github.com/vulmajs/vulma/
 
 ## Stay in touch
-
-
-## Core Team
-
-* Ronni H. Baslund — [@ronnibaslund](https://github.com/ronnibaslund)
 
 ## License
 
