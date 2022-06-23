@@ -104,7 +104,7 @@
     "sass-loader": "6.0.6",
     "scrollreveal": "3.3.6",
     "semver": "5.3.0",
-    "shelljs": "0.7.6",
+    "shelljs": "0.8.5",
     "sortablejs": "1.7.0",
     "sw-precache-webpack-plugin": "0.9.1",
     "url-loader": "0.5.8",
